@@ -1,0 +1,304 @@
+[
+  {
+    "id": 1,
+    "level": "Beginner",
+    "question": "What is Playwright primarily used for?",
+    "answer": "Playwright is used for end-to-end browser automation testing. It supports modern web apps across Chromium, Firefox, and WebKit."
+  },
+  {
+    "id": 2,
+    "level": "Beginner",
+    "question": "How is Playwright different from Selenium?",
+    "answer": "Playwright provides built-in auto-waits, supports multiple browsers out of the box, and offers faster execution compared to Selenium’s driver-based approach."
+  },
+  {
+    "id": 3,
+    "level": "Beginner",
+    "question": "Which browsers does Playwright support?",
+    "answer": "Playwright supports Chromium (Chrome/Edge), Firefox, and WebKit (Safari engine), making it useful for cross-browser testing."
+  },
+  {
+    "id": 4,
+    "level": "Beginner",
+    "question": "How do you install Playwright in a project?",
+    "answer": "You can install Playwright using npm: npm init playwright@latest or npm install @playwright/test. It automatically downloads browser binaries."
+  },
+  {
+    "id": 5,
+    "level": "Beginner",
+    "question": "What is a browser context in Playwright?",
+    "answer": "A browser context is an isolated session within a browser instance. It allows running tests with separate cookies, cache, and storage."
+  },
+  {
+    "id": 6,
+    "level": "Beginner",
+    "question": "What is the difference between browser and page in Playwright?",
+    "answer": "A browser is the main instance, while a page represents a single tab or window inside that browser."
+  },
+  {
+    "id": 7,
+    "level": "Beginner",
+    "question": "How do you navigate to a URL in Playwright?",
+    "answer": "You use page.goto('https://example.com') to open a webpage and start testing interactions."
+  },
+  {
+    "id": 8,
+    "level": "Beginner",
+    "question": "How do you locate elements in Playwright?",
+    "answer": "Playwright uses locators like page.locator('selector') or built-in methods like getByText() for stable element selection."
+  },
+  {
+    "id": 9,
+    "level": "Beginner",
+    "question": "What are Playwright locators?",
+    "answer": "Locators provide a robust way to find and interact with elements. They automatically retry until the element is ready."
+  },
+  {
+    "id": 10,
+    "level": "Beginner",
+    "question": "How do you click an element in Playwright?",
+    "answer": "You can click using locator.click(), for example: page.locator('#login').click(). Playwright waits automatically before clicking."
+  },
+  {
+    "id": 11,
+    "level": "Beginner",
+    "question": "How do you type text into an input field?",
+    "answer": "Use locator.fill('value') or locator.type('value'). fill() clears existing text before entering new text."
+  },
+  {
+    "id": 12,
+    "level": "Beginner",
+    "question": "What is auto-waiting in Playwright?",
+    "answer": "Playwright automatically waits for elements to be visible, enabled, and stable before performing actions, reducing flaky tests."
+  },
+  {
+    "id": 13,
+    "level": "Beginner",
+    "question": "How do you take a screenshot in Playwright?",
+    "answer": "Use page.screenshot({ path: 'screenshot.png' }) to capture the current page view for debugging or reporting."
+  },
+  {
+    "id": 14,
+    "level": "Beginner",
+    "question": "What is Playwright Test?",
+    "answer": "Playwright Test is the official test runner with built-in fixtures, parallel execution, reporting, and assertions."
+  },
+  {
+    "id": 15,
+    "level": "Beginner",
+    "question": "How do you run Playwright tests?",
+    "answer": "You run tests using npx playwright test. It executes tests headlessly by default with reporting support."
+  },
+  {
+    "id": 16,
+    "level": "Beginner",
+    "question": "How do you run tests in headed mode?",
+    "answer": "Use npx playwright test --headed to run tests with a visible browser window for debugging."
+  },
+  {
+    "id": 17,
+    "level": "Beginner",
+    "question": "How do you run a single test file in Playwright?",
+    "answer": "You can run a single file using: npx playwright test filename.spec.js for targeted execution."
+  },
+  {
+    "id": 18,
+    "level": "Beginner",
+    "question": "What is the role of expect in Playwright?",
+    "answer": "Expect is used for assertions in Playwright Test, like checking visibility, text, or page URL in validations."
+  },
+  {
+    "id": 19,
+    "level": "Beginner",
+    "question": "How do you check if an element is visible?",
+    "answer": "Use expect(locator).toBeVisible() to verify the element is displayed before continuing."
+  },
+  {
+    "id": 20,
+    "level": "Beginner",
+    "question": "How does Playwright handle multiple browsers easily?",
+    "answer": "Playwright tests can run across Chromium, Firefox, and WebKit using configuration projects without changing test code."
+  },
+
+  {
+    "id": 21,
+    "level": "Intermediate",
+    "question": "How do you handle authentication in Playwright tests?",
+    "answer": "Authentication can be handled by saving storage state after login and reusing it across tests to avoid repeated UI logins."
+  },
+  {
+    "id": 22,
+    "level": "Intermediate",
+    "question": "What is storageState in Playwright?",
+    "answer": "storageState stores cookies and localStorage data. It helps reuse logged-in sessions for faster test execution."
+  },
+  {
+    "id": 23,
+    "level": "Intermediate",
+    "question": "How do you run tests in parallel in Playwright?",
+    "answer": "Playwright Test runs tests in parallel by default using workers configured in playwright.config.js."
+  },
+  {
+    "id": 24,
+    "level": "Intermediate",
+    "question": "What is the use of playwright.config.js?",
+    "answer": "It defines global settings like browser projects, base URL, retries, reporter configuration, and execution options."
+  },
+  {
+    "id": 25,
+    "level": "Intermediate",
+    "question": "How do you mock API responses in Playwright?",
+    "answer": "You can intercept network calls using page.route() and return mocked responses for stable and predictable tests."
+  },
+  {
+    "id": 26,
+    "level": "Intermediate",
+    "question": "How do you handle file uploads in Playwright?",
+    "answer": "Use locator.setInputFiles('filePath') to upload files directly without interacting with OS dialogs."
+  },
+  {
+    "id": 27,
+    "level": "Intermediate",
+    "question": "How do you handle downloads in Playwright?",
+    "answer": "Playwright provides page.waitForEvent('download') to capture downloads and save them programmatically."
+  },
+  {
+    "id": 28,
+    "level": "Intermediate",
+    "question": "How do you handle iframes in Playwright?",
+    "answer": "Use page.frameLocator('iframeSelector') to interact with elements inside iframe content reliably."
+  },
+  {
+    "id": 29,
+    "level": "Intermediate",
+    "question": "How do you handle multiple tabs/windows?",
+    "answer": "Playwright can manage multiple pages by listening for newPage events or using browserContext.pages()."
+  },
+  {
+    "id": 30,
+    "level": "Intermediate",
+    "question": "What is the Playwright Inspector?",
+    "answer": "Playwright Inspector is a debugging tool that allows step-by-step execution, selector picking, and trace viewing."
+  },
+  {
+    "id": 31,
+    "level": "Intermediate",
+    "question": "How do you generate a Playwright test report?",
+    "answer": "Playwright supports built-in HTML reporting using the html reporter configured in playwright.config.js."
+  },
+  {
+    "id": 32,
+    "level": "Intermediate",
+    "question": "What is tracing in Playwright?",
+    "answer": "Tracing captures screenshots, DOM snapshots, and actions during a test run, useful for debugging failures."
+  },
+  {
+    "id": 33,
+    "level": "Intermediate",
+    "question": "How do you retry failed tests in Playwright?",
+    "answer": "Retries can be configured in playwright.config.js, allowing flaky tests to rerun automatically in CI."
+  },
+  {
+    "id": 34,
+    "level": "Intermediate",
+    "question": "How do you test responsive design in Playwright?",
+    "answer": "You can set viewport size in configuration or use devices presets to simulate mobile and tablet environments."
+  },
+  {
+    "id": 35,
+    "level": "Intermediate",
+    "question": "What is the use of page.waitForSelector()?",
+    "answer": "It waits for an element to appear in the DOM, useful in rare cases where explicit waiting is required."
+  },
+  {
+    "id": 36,
+    "level": "Intermediate",
+    "question": "How do you handle dynamic elements in Playwright?",
+    "answer": "Use robust locators and built-in retry mechanisms. Playwright locators automatically re-resolve elements when needed."
+  },
+  {
+    "id": 37,
+    "level": "Intermediate",
+    "question": "How do you interact with hover menus?",
+    "answer": "Use locator.hover() to trigger hover behavior and then validate the dropdown menu elements."
+  },
+  {
+    "id": 38,
+    "level": "Intermediate",
+    "question": "How do you handle alerts and dialogs?",
+    "answer": "Playwright provides page.on('dialog') event handlers to accept, dismiss, or validate alert messages."
+  },
+  {
+    "id": 39,
+    "level": "Intermediate",
+    "question": "What is the difference between fill() and type()?",
+    "answer": "fill() replaces existing text completely, while type() simulates key-by-key typing without clearing first."
+  },
+  {
+    "id": 40,
+    "level": "Intermediate",
+    "question": "How do you run Playwright tests in CI?",
+    "answer": "Playwright runs well in CI with headless mode, retries, reports, and parallelization configured for pipelines."
+  },
+
+  {
+    "id": 41,
+    "level": "Advanced",
+    "question": "What are Playwright fixtures?",
+    "answer": "Fixtures provide reusable test setup like authenticated contexts or page objects, improving scalability and reducing duplication."
+  },
+  {
+    "id": 42,
+    "level": "Advanced",
+    "question": "How do you test across multiple environments in Playwright?",
+    "answer": "Use environment variables and config projects for staging, QA, and production URLs without changing test code."
+  },
+  {
+    "id": 43,
+    "level": "Advanced",
+    "question": "How do you perform API testing with Playwright?",
+    "answer": "Playwright supports APIRequestContext for backend API testing, enabling combined UI + API automation frameworks."
+  },
+  {
+    "id": 44,
+    "level": "Advanced",
+    "question": "What is the advantage of Playwright’s multi-browser engine support?",
+    "answer": "It allows testing Safari-like WebKit behavior alongside Chrome and Firefox, ensuring true cross-browser compatibility."
+  },
+  {
+    "id": 45,
+    "level": "Advanced",
+    "question": "How do you reduce flaky tests in Playwright?",
+    "answer": "Use stable locators, avoid fixed waits, rely on auto-waiting, and enable tracing with retries for debugging."
+  },
+  {
+    "id": 46,
+    "level": "Advanced",
+    "question": "How do you structure a scalable Playwright automation framework?",
+    "answer": "Use Page Objects, fixtures, reusable utilities, modular test suites, and CI integration with reporting."
+  },
+  {
+    "id": 47,
+    "level": "Advanced",
+    "question": "How do you test real-time apps like WebSockets?",
+    "answer": "Playwright can validate network events, async UI changes, and real-time updates using locators with auto-retry behavior."
+  },
+  {
+    "id": 48,
+    "level": "Advanced",
+    "question": "What is the role of projects in Playwright configuration?",
+    "answer": "Projects allow running the same tests across different browsers, devices, or configurations simultaneously."
+  },
+  {
+    "id": 49,
+    "level": "Advanced",
+    "question": "When should you choose Playwright over Cypress?",
+    "answer": "Choose Playwright when you need true multi-browser coverage, multi-tab support, advanced automation, and strong parallel execution."
+  },
+  {
+    "id": 50,
+    "level": "Advanced",
+    "question": "What makes Playwright a modern automation tool?",
+    "answer": "Its built-in auto-waits, multi-browser support, powerful debugging tools, tracing, and scalable test runner make it modern and reliable."
+  }
+]

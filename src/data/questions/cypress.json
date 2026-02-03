@@ -1,0 +1,304 @@
+[
+  {
+    "id": 1,
+    "level": "Beginner",
+    "question": "What is Cypress primarily used for?",
+    "answer": "Cypress is mainly used for end-to-end testing of modern web applications. It runs directly inside the browser and provides fast execution."
+  },
+  {
+    "id": 2,
+    "level": "Beginner",
+    "question": "How do you install Cypress in a project?",
+    "answer": "You install Cypress using npm or yarn, for example: npm install cypress --save-dev. Then you run it with npx cypress open."
+  },
+  {
+    "id": 3,
+    "level": "Beginner",
+    "question": "What is the difference between npx cypress open and npx cypress run?",
+    "answer": "cypress open launches the interactive Test Runner UI, while cypress run executes tests in headless mode, commonly used in CI pipelines."
+  },
+  {
+    "id": 4,
+    "level": "Beginner",
+    "question": "What does cy.visit() do in Cypress?",
+    "answer": "cy.visit() is used to navigate the browser to a specific URL. It is typically the first step in an end-to-end test."
+  },
+  {
+    "id": 5,
+    "level": "Beginner",
+    "question": "How do you select an element in Cypress?",
+    "answer": "You select elements using cy.get() with CSS selectors, such as cy.get('#login-btn'). Cypress encourages stable selectors like data-testid."
+  },
+  {
+    "id": 6,
+    "level": "Beginner",
+    "question": "What is cy.contains() used for?",
+    "answer": "cy.contains() finds elements based on visible text. It is useful when you want to locate buttons, links, or labels by content."
+  },
+  {
+    "id": 7,
+    "level": "Beginner",
+    "question": "How does Cypress handle waiting for elements?",
+    "answer": "Cypress automatically waits and retries commands until elements appear or assertions pass. This reduces the need for manual waits."
+  },
+  {
+    "id": 8,
+    "level": "Beginner",
+    "question": "What are Cypress assertions?",
+    "answer": "Assertions validate expected behavior, such as checking text, visibility, or URL. They are written using should() or expect()."
+  },
+  {
+    "id": 9,
+    "level": "Beginner",
+    "question": "How do you type into an input field in Cypress?",
+    "answer": "You use cy.get() to locate the input and then call .type(), for example: cy.get('input').type('username')."
+  },
+  {
+    "id": 10,
+    "level": "Beginner",
+    "question": "How do you click a button in Cypress?",
+    "answer": "You locate the button using cy.get() or cy.contains() and then call .click(), for example: cy.contains('Submit').click()."
+  },
+  {
+    "id": 11,
+    "level": "Beginner",
+    "question": "What is the default folder structure of Cypress?",
+    "answer": "Cypress contains folders like e2e for tests, fixtures for test data, and support for reusable commands and configuration."
+  },
+  {
+    "id": 12,
+    "level": "Beginner",
+    "question": "What are fixtures in Cypress?",
+    "answer": "Fixtures are external JSON or static files used for test data. They can be loaded using cy.fixture() in tests."
+  },
+  {
+    "id": 13,
+    "level": "Beginner",
+    "question": "What is the purpose of the support folder in Cypress?",
+    "answer": "The support folder contains reusable utilities, custom commands, and global hooks that run before every test file."
+  },
+  {
+    "id": 14,
+    "level": "Beginner",
+    "question": "How do you run a specific test file in Cypress?",
+    "answer": "You can run a specific spec file by selecting it in the Test Runner UI or using the --spec flag with cypress run."
+  },
+  {
+    "id": 15,
+    "level": "Beginner",
+    "question": "What is the role of beforeEach() in Cypress?",
+    "answer": "beforeEach() is used to run setup steps before each test case, such as visiting a page or logging in."
+  },
+  {
+    "id": 16,
+    "level": "Beginner",
+    "question": "How do you check if an element is visible?",
+    "answer": "You can use cy.get(selector).should('be.visible') to verify that an element is displayed on the page."
+  },
+  {
+    "id": 17,
+    "level": "Beginner",
+    "question": "How do you check element text in Cypress?",
+    "answer": "Use cy.get().should('contain.text','expected') or cy.contains() to validate visible text content."
+  },
+  {
+    "id": 18,
+    "level": "Beginner",
+    "question": "What is cy.url() used for?",
+    "answer": "cy.url() retrieves the current page URL and is often used with assertions to validate navigation behavior."
+  },
+  {
+    "id": 19,
+    "level": "Beginner",
+    "question": "What is cy.title() used for?",
+    "answer": "cy.title() gets the current page title and can be asserted to ensure the correct page is loaded."
+  },
+  {
+    "id": 20,
+    "level": "Beginner",
+    "question": "How does Cypress differ from Selenium at a high level?",
+    "answer": "Cypress runs in the same run-loop as the application, providing automatic waits and debugging, while Selenium operates externally through WebDriver."
+  },
+
+  {
+    "id": 21,
+    "level": "Intermediate",
+    "question": "What are custom commands in Cypress?",
+    "answer": "Custom commands are reusable test actions added using Cypress.Commands.add(), such as a login helper function."
+  },
+  {
+    "id": 22,
+    "level": "Intermediate",
+    "question": "Where do you define Cypress custom commands?",
+    "answer": "Custom commands are typically defined inside cypress/support/commands.js so they are globally available in tests."
+  },
+  {
+    "id": 23,
+    "level": "Intermediate",
+    "question": "What is cy.intercept() used for?",
+    "answer": "cy.intercept() is used to stub or spy on network requests. It helps test API-driven flows without relying on real backend responses."
+  },
+  {
+    "id": 24,
+    "level": "Intermediate",
+    "question": "How do you wait for an API request in Cypress?",
+    "answer": "You alias an intercept and then use cy.wait('@alias') to ensure the request completes before continuing assertions."
+  },
+  {
+    "id": 25,
+    "level": "Intermediate",
+    "question": "What is stubbing in Cypress?",
+    "answer": "Stubbing replaces real network responses with mock data using cy.intercept(), enabling consistent test execution."
+  },
+  {
+    "id": 26,
+    "level": "Intermediate",
+    "question": "How do you handle authentication in Cypress tests?",
+    "answer": "You can handle login using UI flows, API-based login, or by setting cookies/localStorage directly for faster testing."
+  },
+  {
+    "id": 27,
+    "level": "Intermediate",
+    "question": "What is the Cypress command queue?",
+    "answer": "Cypress commands are asynchronous and queued for execution. This ensures predictable sequencing without needing manual promises."
+  },
+  {
+    "id": 28,
+    "level": "Intermediate",
+    "question": "Why should you avoid using async/await with Cypress commands?",
+    "answer": "Cypress already manages async execution internally, so mixing async/await can break the command chain and cause unexpected behavior."
+  },
+  {
+    "id": 29,
+    "level": "Intermediate",
+    "question": "How do you handle dropdown selections in Cypress?",
+    "answer": "You can use cy.get('select').select('Option') for native selects, or click-based actions for custom dropdown components."
+  },
+  {
+    "id": 30,
+    "level": "Intermediate",
+    "question": "How do you handle file uploads in Cypress?",
+    "answer": "File uploads can be handled using plugins like cypress-file-upload or by interacting with input[type='file'] elements."
+  },
+  {
+    "id": 31,
+    "level": "Intermediate",
+    "question": "How do you test responsive layouts in Cypress?",
+    "answer": "Use cy.viewport() to simulate different screen sizes and validate UI behavior across devices."
+  },
+  {
+    "id": 32,
+    "level": "Intermediate",
+    "question": "What is the use of Cypress environment variables?",
+    "answer": "Environment variables store config like URLs or credentials, accessed via Cypress.env(), making tests configurable."
+  },
+  {
+    "id": 33,
+    "level": "Intermediate",
+    "question": "How do you handle cookies in Cypress?",
+    "answer": "Cookies can be set, retrieved, or cleared using cy.setCookie(), cy.getCookie(), and cy.clearCookies()."
+  },
+  {
+    "id": 34,
+    "level": "Intermediate",
+    "question": "What is cy.session() used for?",
+    "answer": "cy.session() caches login sessions, reducing repeated authentication steps and speeding up test execution."
+  },
+  {
+    "id": 35,
+    "level": "Intermediate",
+    "question": "How do you debug Cypress tests?",
+    "answer": "You can use Cypress Test Runner, browser dev tools, cy.debug(), or pause execution with .pause()."
+  },
+  {
+    "id": 36,
+    "level": "Intermediate",
+    "question": "What is the Cypress Dashboard?",
+    "answer": "Cypress Dashboard provides recording, parallelization, flake detection, and insights for test runs in CI."
+  },
+  {
+    "id": 37,
+    "level": "Intermediate",
+    "question": "How do you run Cypress tests in parallel?",
+    "answer": "Parallel execution is supported via Cypress Dashboard with multiple CI machines splitting specs automatically."
+  },
+  {
+    "id": 38,
+    "level": "Intermediate",
+    "question": "What is the recommended selector strategy in Cypress?",
+    "answer": "Use stable selectors like data-cy or data-testid instead of brittle CSS classes or complex XPaths."
+  },
+  {
+    "id": 39,
+    "level": "Intermediate",
+    "question": "How do you handle multiple tabs in Cypress?",
+    "answer": "Cypress does not support multi-tab testing directly; instead, test the navigation behavior or stub window.open()."
+  },
+  {
+    "id": 40,
+    "level": "Intermediate",
+    "question": "How do you test APIs directly in Cypress?",
+    "answer": "You can use cy.request() to send HTTP calls and validate responses without using the UI."
+  },
+
+  {
+    "id": 41,
+    "level": "Advanced",
+    "question": "What are the limitations of Cypress?",
+    "answer": "Cypress cannot automate multiple browser tabs, native mobile apps, or cross-domain testing without special workarounds."
+  },
+  {
+    "id": 42,
+    "level": "Advanced",
+    "question": "How do you reduce flaky Cypress tests?",
+    "answer": "Use stable selectors, avoid unnecessary waits, mock unreliable APIs, and ensure proper cleanup between tests."
+  },
+  {
+    "id": 43,
+    "level": "Advanced",
+    "question": "How do you integrate Cypress with CI/CD pipelines?",
+    "answer": "Cypress tests can run headless with cypress run in CI tools like GitHub Actions, Jenkins, or GitLab pipelines."
+  },
+  {
+    "id": 44,
+    "level": "Advanced",
+    "question": "What is component testing in Cypress?",
+    "answer": "Component testing allows testing UI components in isolation, faster than full E2E, supported for frameworks like React and Vue."
+  },
+  {
+    "id": 45,
+    "level": "Advanced",
+    "question": "How do you manage test data in Cypress frameworks?",
+    "answer": "Test data can be managed via fixtures, API setup calls, database resets, or mocked responses for predictable runs."
+  },
+  {
+    "id": 46,
+    "level": "Advanced",
+    "question": "What is the role of retries in Cypress?",
+    "answer": "Retries rerun failed tests automatically in CI mode, helping reduce transient failures caused by timing issues."
+  },
+  {
+    "id": 47,
+    "level": "Advanced",
+    "question": "How do you generate reports in Cypress?",
+    "answer": "Reporting can be done using Mocha reporters like mochawesome or integrated dashboard reports in CI."
+  },
+  {
+    "id": 48,
+    "level": "Advanced",
+    "question": "How do you structure a scalable Cypress framework?",
+    "answer": "Use Page Object patterns, custom commands, fixtures, environment configs, and modular spec organization for maintainability."
+  },
+  {
+    "id": 49,
+    "level": "Advanced",
+    "question": "How do you handle cross-origin testing in Cypress?",
+    "answer": "Cypress provides cy.origin() for handling multiple domains, useful for authentication flows with third-party providers."
+  },
+  {
+    "id": 50,
+    "level": "Advanced",
+    "question": "When should you choose Cypress over Selenium?",
+    "answer": "Choose Cypress for modern web apps needing fast debugging and developer-friendly tooling, while Selenium is better for multi-browser and multi-language enterprise testing."
+  }
+]

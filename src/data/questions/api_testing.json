@@ -1,0 +1,364 @@
+[
+  {
+    "id": 1,
+    "level": "Beginner",
+    "question": "What is API testing?",
+    "answer": "API testing validates backend services by testing endpoints directly. It ensures correct responses, performance, and reliability without relying on the UI."
+  },
+  {
+    "id": 2,
+    "level": "Beginner",
+    "question": "What is the difference between API testing and UI testing?",
+    "answer": "API testing focuses on backend logic and data exchange, while UI testing validates the user interface flow. API tests are faster and more stable."
+  },
+  {
+    "id": 3,
+    "level": "Beginner",
+    "question": "What is a REST API?",
+    "answer": "REST API is an architectural style that uses HTTP methods like GET, POST, PUT, and DELETE to perform operations on resources."
+  },
+  {
+    "id": 4,
+    "level": "Beginner",
+    "question": "What is the difference between REST and SOAP?",
+    "answer": "REST is lightweight and uses JSON over HTTP, while SOAP is protocol-based, uses XML, and has strict standards for messaging and security."
+  },
+  {
+    "id": 5,
+    "level": "Beginner",
+    "question": "What are common HTTP methods used in API testing?",
+    "answer": "The most common HTTP methods are GET (read), POST (create), PUT/PATCH (update), and DELETE (remove)."
+  },
+  {
+    "id": 6,
+    "level": "Beginner",
+    "question": "What is the purpose of HTTP status codes?",
+    "answer": "Status codes indicate the result of an API request, such as success (200), client error (400), or server error (500)."
+  },
+  {
+    "id": 7,
+    "level": "Beginner",
+    "question": "What does a 200 status code mean?",
+    "answer": "200 OK means the API request was successful and the server returned the expected response."
+  },
+  {
+    "id": 8,
+    "level": "Beginner",
+    "question": "What does a 201 status code mean?",
+    "answer": "201 Created indicates that a new resource was successfully created, commonly returned after a POST request."
+  },
+  {
+    "id": 9,
+    "level": "Beginner",
+    "question": "What does a 400 status code indicate?",
+    "answer": "400 Bad Request means the client request is invalid due to incorrect parameters or malformed request body."
+  },
+  {
+    "id": 10,
+    "level": "Beginner",
+    "question": "What does a 401 status code indicate?",
+    "answer": "401 Unauthorized means authentication is required or credentials provided are invalid."
+  },
+  {
+    "id": 11,
+    "level": "Beginner",
+    "question": "What does a 403 status code indicate?",
+    "answer": "403 Forbidden means the user is authenticated but does not have permission to access the requested resource."
+  },
+  {
+    "id": 12,
+    "level": "Beginner",
+    "question": "What does a 404 status code indicate?",
+    "answer": "404 Not Found means the requested endpoint or resource does not exist on the server."
+  },
+  {
+    "id": 13,
+    "level": "Beginner",
+    "question": "What is the meaning of a 500 status code?",
+    "answer": "500 Internal Server Error indicates an unexpected failure occurred on the server side while processing the request."
+  },
+  {
+    "id": 14,
+    "level": "Beginner",
+    "question": "What is an endpoint in an API?",
+    "answer": "An endpoint is a specific URL path where an API resource can be accessed, such as /users or /orders."
+  },
+  {
+    "id": 15,
+    "level": "Beginner",
+    "question": "What is the request body in API testing?",
+    "answer": "The request body contains data sent to the server, usually in JSON format, for operations like POST or PUT."
+  },
+  {
+    "id": 16,
+    "level": "Beginner",
+    "question": "What is the response body in API testing?",
+    "answer": "The response body contains the data returned by the API, typically JSON or XML, representing the resource or result."
+  },
+  {
+    "id": 17,
+    "level": "Beginner",
+    "question": "What are headers in an API request?",
+    "answer": "Headers provide metadata such as authentication tokens, content type, and accepted response formats."
+  },
+  {
+    "id": 18,
+    "level": "Beginner",
+    "question": "What is Content-Type in API testing?",
+    "answer": "Content-Type specifies the format of the request body, such as application/json or application/xml."
+  },
+  {
+    "id": 19,
+    "level": "Beginner",
+    "question": "What is Accept header used for?",
+    "answer": "The Accept header tells the server which response format the client expects, such as JSON."
+  },
+  {
+    "id": 20,
+    "level": "Beginner",
+    "question": "What is JSON in API testing?",
+    "answer": "JSON is a lightweight data format widely used for request and response payloads in REST APIs."
+  },
+
+  {
+    "id": 21,
+    "level": "Intermediate",
+    "question": "What is authentication in API testing?",
+    "answer": "Authentication verifies user identity before allowing access to APIs, commonly implemented using tokens, API keys, or OAuth."
+  },
+  {
+    "id": 22,
+    "level": "Intermediate",
+    "question": "What is the difference between authentication and authorization?",
+    "answer": "Authentication confirms identity, while authorization determines what actions or resources the authenticated user can access."
+  },
+  {
+    "id": 23,
+    "level": "Intermediate",
+    "question": "What is JWT in API testing?",
+    "answer": "JWT (JSON Web Token) is a token-based authentication mechanism used to securely transmit user identity information."
+  },
+  {
+    "id": 24,
+    "level": "Intermediate",
+    "question": "What is OAuth used for?",
+    "answer": "OAuth is an authorization framework that allows third-party applications to access user resources securely without sharing passwords."
+  },
+  {
+    "id": 25,
+    "level": "Intermediate",
+    "question": "What is API versioning?",
+    "answer": "API versioning is the practice of maintaining multiple API versions (e.g., /v1, /v2) to support backward compatibility."
+  },
+  {
+    "id": 26,
+    "level": "Intermediate",
+    "question": "What is idempotency in API testing?",
+    "answer": "An idempotent API call returns the same result even if executed multiple times, like GET or PUT operations."
+  },
+  {
+    "id": 27,
+    "level": "Intermediate",
+    "question": "How do you validate API responses?",
+    "answer": "You validate status codes, response body values, schema structure, headers, and response time against requirements."
+  },
+  {
+    "id": 28,
+    "level": "Intermediate",
+    "question": "What is schema validation?",
+    "answer": "Schema validation ensures the API response matches the expected JSON structure and data types defined in specifications."
+  },
+  {
+    "id": 29,
+    "level": "Intermediate",
+    "question": "What is Postman used for?",
+    "answer": "Postman is a tool for sending API requests, validating responses, creating collections, and automating API test execution."
+  },
+  {
+    "id": 30,
+    "level": "Intermediate",
+    "question": "What are Postman Collections?",
+    "answer": "Collections are groups of API requests organized for testing workflows, making it easier to run and share test suites."
+  },
+  {
+    "id": 31,
+    "level": "Intermediate",
+    "question": "What are environment variables in Postman?",
+    "answer": "Environment variables store dynamic values like base URLs or tokens, helping run tests across environments easily."
+  },
+  {
+    "id": 32,
+    "level": "Intermediate",
+    "question": "What is the use of Newman?",
+    "answer": "Newman is Postman’s CLI tool used to run collections in CI/CD pipelines with automated reporting."
+  },
+  {
+    "id": 33,
+    "level": "Intermediate",
+    "question": "What is API contract testing?",
+    "answer": "Contract testing ensures APIs meet agreed specifications between client and server, preventing breaking changes."
+  },
+  {
+    "id": 34,
+    "level": "Intermediate",
+    "question": "What is the difference between PUT and PATCH?",
+    "answer": "PUT updates the entire resource, while PATCH updates only specific fields, making PATCH more lightweight."
+  },
+  {
+    "id": 35,
+    "level": "Intermediate",
+    "question": "What is pagination in APIs?",
+    "answer": "Pagination splits large datasets into smaller pages using parameters like limit and offset for better performance."
+  },
+  {
+    "id": 36,
+    "level": "Intermediate",
+    "question": "What is rate limiting in APIs?",
+    "answer": "Rate limiting restricts the number of requests per client within a timeframe to prevent abuse and ensure stability."
+  },
+  {
+    "id": 37,
+    "level": "Intermediate",
+    "question": "What is the difference between query params and path params?",
+    "answer": "Path params identify resources (e.g., /users/1), while query params filter or modify requests (e.g., ?page=2)."
+  },
+  {
+    "id": 38,
+    "level": "Intermediate",
+    "question": "What is API monitoring?",
+    "answer": "API monitoring continuously checks endpoint availability, response time, and correctness in production environments."
+  },
+  {
+    "id": 39,
+    "level": "Intermediate",
+    "question": "What is API mocking?",
+    "answer": "API mocking simulates real API responses for testing when backend services are unavailable or incomplete."
+  },
+  {
+    "id": 40,
+    "level": "Intermediate",
+    "question": "What is the difference between functional and performance API testing?",
+    "answer": "Functional testing validates correctness, while performance testing checks scalability, response time, and load behavior."
+  },
+
+  {
+    "id": 41,
+    "level": "Advanced",
+    "question": "What is API load testing?",
+    "answer": "Load testing evaluates API behavior under expected traffic levels to ensure reliability and acceptable response times."
+  },
+  {
+    "id": 42,
+    "level": "Advanced",
+    "question": "What tools are used for API performance testing?",
+    "answer": "Common tools include JMeter, Gatling, Locust, and k6 for simulating concurrent API traffic."
+  },
+  {
+    "id": 43,
+    "level": "Advanced",
+    "question": "What is the importance of API security testing?",
+    "answer": "Security testing ensures APIs are protected against vulnerabilities like injection attacks, broken auth, and data exposure."
+  },
+  {
+    "id": 44,
+    "level": "Advanced",
+    "question": "What is OWASP API Security Top 10?",
+    "answer": "It is a list of the most critical API vulnerabilities, such as broken authentication, excessive data exposure, and injection."
+  },
+  {
+    "id": 45,
+    "level": "Advanced",
+    "question": "What is contract testing with OpenAPI?",
+    "answer": "OpenAPI defines API schemas and endpoints. Contract testing validates implementation against these specifications to prevent breaking changes."
+  },
+  {
+    "id": 46,
+    "level": "Advanced",
+    "question": "How do you test microservices APIs effectively?",
+    "answer": "Test individual service APIs, validate integration flows, and use contract testing to ensure compatibility across services."
+  },
+  {
+    "id": 47,
+    "level": "Advanced",
+    "question": "What is chaos testing for APIs?",
+    "answer": "Chaos testing introduces failures like latency or downtime to verify API resilience and system stability under stress."
+  },
+  {
+    "id": 48,
+    "level": "Advanced",
+    "question": "What are best practices for API automation frameworks?",
+    "answer": "Use reusable request builders, schema validation, proper assertions, environment configs, and CI integration for maintainability."
+  },
+  {
+    "id": 49,
+    "level": "Advanced",
+    "question": "How do you handle sensitive data in API testing?",
+    "answer": "Avoid hardcoding credentials, use secure vaults, mask logs, and ensure data privacy compliance in test environments."
+  },
+  {
+    "id": 50,
+    "level": "Advanced",
+    "question": "When should API testing be prioritized in QA strategy?",
+    "answer": "API testing should be prioritized early because it validates core business logic faster and reduces dependency on UI stability."
+  },
+  {
+    "id": 51,
+    "level": "Beginner",
+    "question": "What does HTTP status code 204 mean?",
+    "answer": "204 No Content means the request was successful but the server returned no response body, often used after DELETE operations."
+  },
+  {
+    "id": 52,
+    "level": "Beginner",
+    "question": "What does HTTP status code 301 indicate?",
+    "answer": "301 Moved Permanently means the requested resource has been permanently redirected to a new URL."
+  },
+  {
+    "id": 53,
+    "level": "Beginner",
+    "question": "What does HTTP status code 302 indicate?",
+    "answer": "302 Found means the resource is temporarily redirected to another URL, commonly used in login flows."
+  },
+  {
+    "id": 54,
+    "level": "Intermediate",
+    "question": "What does HTTP status code 409 mean?",
+    "answer": "409 Conflict occurs when the request cannot be processed due to a conflict, such as duplicate resource creation."
+  },
+  {
+    "id": 55,
+    "level": "Intermediate",
+    "question": "What does HTTP status code 422 mean?",
+    "answer": "422 Unprocessable Entity means the server understands the request but cannot process it due to semantic validation errors."
+  },
+  {
+    "id": 56,
+    "level": "Intermediate",
+    "question": "What does HTTP status code 429 indicate?",
+    "answer": "429 Too Many Requests means the client has exceeded the rate limit and should slow down requests."
+  },
+  {
+    "id": 57,
+    "level": "Intermediate",
+    "question": "What does HTTP status code 502 mean?",
+    "answer": "502 Bad Gateway indicates that one server acting as a gateway received an invalid response from an upstream server."
+  },
+  {
+    "id": 58,
+    "level": "Advanced",
+    "question": "What does HTTP status code 503 mean?",
+    "answer": "503 Service Unavailable indicates the server is temporarily unable to handle the request due to maintenance or overload."
+  },
+  {
+    "id": 59,
+    "level": "Advanced",
+    "question": "What does HTTP status code 504 mean?",
+    "answer": "504 Gateway Timeout means the gateway server did not receive a timely response from the upstream server."
+  },
+  {
+    "id": 60,
+    "level": "Advanced",
+    "question": "Why are status codes important in API testing?",
+    "answer": "Status codes quickly indicate request outcomes and help validate correct API behavior, error handling, and edge-case responses."
+  }
+]

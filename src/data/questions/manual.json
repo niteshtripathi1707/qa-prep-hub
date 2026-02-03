@@ -1,0 +1,902 @@
+[
+  {
+    "id": 1,
+    "level": "Beginner",
+    "question": "What is SDLC?",
+    "answer": "SDLC is the Software Development Life Cycle covering planning, development, testing, deployment, and maintenance."
+  },
+  {
+    "id": 2,
+    "level": "Beginner",
+    "question": "What is STLC?",
+    "answer": "STLC is the Software Testing Life Cycle including requirement analysis, test planning, execution, reporting, and closure."
+  },
+  {
+    "id": 3,
+    "level": "Beginner",
+    "question": "What is Regression Testing?",
+    "answer": "Regression testing ensures that recent code changes have not negatively impacted existing functionality."
+  },
+  {
+    "id": 4,
+    "level": "Beginner",
+    "question": "What is Smoke Testing?",
+    "answer": "Smoke testing is a quick check to ensure the critical functionalities of a build work before detailed testing."
+  },
+  {
+    "id": 5,
+    "level": "Beginner",
+    "question": "What is Sanity Testing?",
+    "answer": "Sanity testing verifies specific functionality after minor changes or bug fixes."
+  },
+  {
+    "id": 6,
+    "level": "Beginner",
+    "question": "What is SDLC?",
+    "answer": "SDLC is the Software Development Life Cycle covering planning, development, testing, deployment, and maintenance."
+  },
+  {
+    "id": 7,
+    "level": "Beginner",
+    "question": "What is STLC?",
+    "answer": "STLC is the Software Testing Life Cycle including requirement analysis, test planning, execution, reporting, and closure."
+  },
+  {
+    "id": 8,
+    "level": "Beginner",
+    "question": "What is Regression Testing?",
+    "answer": "Regression testing ensures that recent code changes have not negatively impacted existing functionality."
+  },
+  {
+    "id": 9,
+    "level": "Beginner",
+    "question": "What is Smoke Testing?",
+    "answer": "Smoke testing is a quick check to ensure the critical functionalities of a build work before detailed testing."
+  },
+  {
+    "id": 10,
+    "level": "Beginner",
+    "question": "What is Sanity Testing?",
+    "answer": "Sanity testing verifies specific functionality after minor changes or bug fixes."
+  },
+  {
+    "id": 11,
+    "level": "Beginner",
+    "question": "What is SDLC?",
+    "answer": "SDLC is the Software Development Life Cycle covering planning, development, testing, deployment, and maintenance."
+  },
+  {
+    "id": 12,
+    "level": "Beginner",
+    "question": "What is STLC?",
+    "answer": "STLC is the Software Testing Life Cycle including requirement analysis, test planning, execution, reporting, and closure."
+  },
+  {
+    "id": 13,
+    "level": "Beginner",
+    "question": "What is Regression Testing?",
+    "answer": "Regression testing ensures that recent code changes have not negatively impacted existing functionality."
+  },
+  {
+    "id": 14,
+    "level": "Beginner",
+    "question": "What is Smoke Testing?",
+    "answer": "Smoke testing is a quick check to ensure the critical functionalities of a build work before detailed testing."
+  },
+  {
+    "id": 15,
+    "level": "Beginner",
+    "question": "What is Sanity Testing?",
+    "answer": "Sanity testing verifies specific functionality after minor changes or bug fixes."
+  },
+  {
+    "id": 16,
+    "level": "Beginner",
+    "question": "What is SDLC?",
+    "answer": "SDLC is the Software Development Life Cycle covering planning, development, testing, deployment, and maintenance."
+  },
+  {
+    "id": 17,
+    "level": "Beginner",
+    "question": "What is STLC?",
+    "answer": "STLC is the Software Testing Life Cycle including requirement analysis, test planning, execution, reporting, and closure."
+  },
+  {
+    "id": 18,
+    "level": "Beginner",
+    "question": "What is Regression Testing?",
+    "answer": "Regression testing ensures that recent code changes have not negatively impacted existing functionality."
+  },
+  {
+    "id": 19,
+    "level": "Beginner",
+    "question": "What is Smoke Testing?",
+    "answer": "Smoke testing is a quick check to ensure the critical functionalities of a build work before detailed testing."
+  },
+  {
+    "id": 20,
+    "level": "Beginner",
+    "question": "What is Sanity Testing?",
+    "answer": "Sanity testing verifies specific functionality after minor changes or bug fixes."
+  },
+  {
+    "id": 21,
+    "level": "Beginner",
+    "question": "What is SDLC?",
+    "answer": "SDLC is the Software Development Life Cycle covering planning, development, testing, deployment, and maintenance."
+  },
+  {
+    "id": 22,
+    "level": "Beginner",
+    "question": "What is STLC?",
+    "answer": "STLC is the Software Testing Life Cycle including requirement analysis, test planning, execution, reporting, and closure."
+  },
+  {
+    "id": 23,
+    "level": "Beginner",
+    "question": "What is Regression Testing?",
+    "answer": "Regression testing ensures that recent code changes have not negatively impacted existing functionality."
+  },
+  {
+    "id": 24,
+    "level": "Beginner",
+    "question": "What is Smoke Testing?",
+    "answer": "Smoke testing is a quick check to ensure the critical functionalities of a build work before detailed testing."
+  },
+  {
+    "id": 25,
+    "level": "Beginner",
+    "question": "What is Sanity Testing?",
+    "answer": "Sanity testing verifies specific functionality after minor changes or bug fixes."
+  },
+  {
+    "id": 26,
+    "level": "Beginner",
+    "question": "What is SDLC?",
+    "answer": "SDLC is the Software Development Life Cycle covering planning, development, testing, deployment, and maintenance."
+  },
+  {
+    "id": 27,
+    "level": "Beginner",
+    "question": "What is STLC?",
+    "answer": "STLC is the Software Testing Life Cycle including requirement analysis, test planning, execution, reporting, and closure."
+  },
+  {
+    "id": 28,
+    "level": "Beginner",
+    "question": "What is Regression Testing?",
+    "answer": "Regression testing ensures that recent code changes have not negatively impacted existing functionality."
+  },
+  {
+    "id": 29,
+    "level": "Beginner",
+    "question": "What is Smoke Testing?",
+    "answer": "Smoke testing is a quick check to ensure the critical functionalities of a build work before detailed testing."
+  },
+  {
+    "id": 30,
+    "level": "Beginner",
+    "question": "What is Sanity Testing?",
+    "answer": "Sanity testing verifies specific functionality after minor changes or bug fixes."
+  },
+  {
+    "id": 31,
+    "level": "Beginner",
+    "question": "What is SDLC?",
+    "answer": "SDLC is the Software Development Life Cycle covering planning, development, testing, deployment, and maintenance."
+  },
+  {
+    "id": 32,
+    "level": "Beginner",
+    "question": "What is STLC?",
+    "answer": "STLC is the Software Testing Life Cycle including requirement analysis, test planning, execution, reporting, and closure."
+  },
+  {
+    "id": 33,
+    "level": "Beginner",
+    "question": "What is Regression Testing?",
+    "answer": "Regression testing ensures that recent code changes have not negatively impacted existing functionality."
+  },
+  {
+    "id": 34,
+    "level": "Beginner",
+    "question": "What is Smoke Testing?",
+    "answer": "Smoke testing is a quick check to ensure the critical functionalities of a build work before detailed testing."
+  },
+  {
+    "id": 35,
+    "level": "Beginner",
+    "question": "What is Sanity Testing?",
+    "answer": "Sanity testing verifies specific functionality after minor changes or bug fixes."
+  },
+  {
+    "id": 36,
+    "level": "Beginner",
+    "question": "What is SDLC?",
+    "answer": "SDLC is the Software Development Life Cycle covering planning, development, testing, deployment, and maintenance."
+  },
+  {
+    "id": 37,
+    "level": "Beginner",
+    "question": "What is STLC?",
+    "answer": "STLC is the Software Testing Life Cycle including requirement analysis, test planning, execution, reporting, and closure."
+  },
+  {
+    "id": 38,
+    "level": "Beginner",
+    "question": "What is Regression Testing?",
+    "answer": "Regression testing ensures that recent code changes have not negatively impacted existing functionality."
+  },
+  {
+    "id": 39,
+    "level": "Beginner",
+    "question": "What is Smoke Testing?",
+    "answer": "Smoke testing is a quick check to ensure the critical functionalities of a build work before detailed testing."
+  },
+  {
+    "id": 40,
+    "level": "Beginner",
+    "question": "What is Sanity Testing?",
+    "answer": "Sanity testing verifies specific functionality after minor changes or bug fixes."
+  },
+  {
+    "id": 41,
+    "level": "Beginner",
+    "question": "What is SDLC?",
+    "answer": "SDLC is the Software Development Life Cycle covering planning, development, testing, deployment, and maintenance."
+  },
+  {
+    "id": 42,
+    "level": "Beginner",
+    "question": "What is STLC?",
+    "answer": "STLC is the Software Testing Life Cycle including requirement analysis, test planning, execution, reporting, and closure."
+  },
+  {
+    "id": 43,
+    "level": "Beginner",
+    "question": "What is Regression Testing?",
+    "answer": "Regression testing ensures that recent code changes have not negatively impacted existing functionality."
+  },
+  {
+    "id": 44,
+    "level": "Beginner",
+    "question": "What is Smoke Testing?",
+    "answer": "Smoke testing is a quick check to ensure the critical functionalities of a build work before detailed testing."
+  },
+  {
+    "id": 45,
+    "level": "Beginner",
+    "question": "What is Sanity Testing?",
+    "answer": "Sanity testing verifies specific functionality after minor changes or bug fixes."
+  },
+  {
+    "id": 46,
+    "level": "Beginner",
+    "question": "What is SDLC?",
+    "answer": "SDLC is the Software Development Life Cycle covering planning, development, testing, deployment, and maintenance."
+  },
+  {
+    "id": 47,
+    "level": "Beginner",
+    "question": "What is STLC?",
+    "answer": "STLC is the Software Testing Life Cycle including requirement analysis, test planning, execution, reporting, and closure."
+  },
+  {
+    "id": 48,
+    "level": "Beginner",
+    "question": "What is Regression Testing?",
+    "answer": "Regression testing ensures that recent code changes have not negatively impacted existing functionality."
+  },
+  {
+    "id": 49,
+    "level": "Beginner",
+    "question": "What is Smoke Testing?",
+    "answer": "Smoke testing is a quick check to ensure the critical functionalities of a build work before detailed testing."
+  },
+  {
+    "id": 50,
+    "level": "Beginner",
+    "question": "What is Sanity Testing?",
+    "answer": "Sanity testing verifies specific functionality after minor changes or bug fixes."
+  },
+  {
+    "id": 51,
+    "level": "Intermediate",
+    "question": "What is SDLC?",
+    "answer": "SDLC is the Software Development Life Cycle covering planning, development, testing, deployment, and maintenance."
+  },
+  {
+    "id": 52,
+    "level": "Intermediate",
+    "question": "What is STLC?",
+    "answer": "STLC is the Software Testing Life Cycle including requirement analysis, test planning, execution, reporting, and closure."
+  },
+  {
+    "id": 53,
+    "level": "Intermediate",
+    "question": "What is Regression Testing?",
+    "answer": "Regression testing ensures that recent code changes have not negatively impacted existing functionality."
+  },
+  {
+    "id": 54,
+    "level": "Intermediate",
+    "question": "What is Smoke Testing?",
+    "answer": "Smoke testing is a quick check to ensure the critical functionalities of a build work before detailed testing."
+  },
+  {
+    "id": 55,
+    "level": "Intermediate",
+    "question": "What is Sanity Testing?",
+    "answer": "Sanity testing verifies specific functionality after minor changes or bug fixes."
+  },
+  {
+    "id": 56,
+    "level": "Intermediate",
+    "question": "What is SDLC?",
+    "answer": "SDLC is the Software Development Life Cycle covering planning, development, testing, deployment, and maintenance."
+  },
+  {
+    "id": 57,
+    "level": "Intermediate",
+    "question": "What is STLC?",
+    "answer": "STLC is the Software Testing Life Cycle including requirement analysis, test planning, execution, reporting, and closure."
+  },
+  {
+    "id": 58,
+    "level": "Intermediate",
+    "question": "What is Regression Testing?",
+    "answer": "Regression testing ensures that recent code changes have not negatively impacted existing functionality."
+  },
+  {
+    "id": 59,
+    "level": "Intermediate",
+    "question": "What is Smoke Testing?",
+    "answer": "Smoke testing is a quick check to ensure the critical functionalities of a build work before detailed testing."
+  },
+  {
+    "id": 60,
+    "level": "Intermediate",
+    "question": "What is Sanity Testing?",
+    "answer": "Sanity testing verifies specific functionality after minor changes or bug fixes."
+  },
+  {
+    "id": 61,
+    "level": "Intermediate",
+    "question": "What is SDLC?",
+    "answer": "SDLC is the Software Development Life Cycle covering planning, development, testing, deployment, and maintenance."
+  },
+  {
+    "id": 62,
+    "level": "Intermediate",
+    "question": "What is STLC?",
+    "answer": "STLC is the Software Testing Life Cycle including requirement analysis, test planning, execution, reporting, and closure."
+  },
+  {
+    "id": 63,
+    "level": "Intermediate",
+    "question": "What is Regression Testing?",
+    "answer": "Regression testing ensures that recent code changes have not negatively impacted existing functionality."
+  },
+  {
+    "id": 64,
+    "level": "Intermediate",
+    "question": "What is Smoke Testing?",
+    "answer": "Smoke testing is a quick check to ensure the critical functionalities of a build work before detailed testing."
+  },
+  {
+    "id": 65,
+    "level": "Intermediate",
+    "question": "What is Sanity Testing?",
+    "answer": "Sanity testing verifies specific functionality after minor changes or bug fixes."
+  },
+  {
+    "id": 66,
+    "level": "Intermediate",
+    "question": "What is SDLC?",
+    "answer": "SDLC is the Software Development Life Cycle covering planning, development, testing, deployment, and maintenance."
+  },
+  {
+    "id": 67,
+    "level": "Intermediate",
+    "question": "What is STLC?",
+    "answer": "STLC is the Software Testing Life Cycle including requirement analysis, test planning, execution, reporting, and closure."
+  },
+  {
+    "id": 68,
+    "level": "Intermediate",
+    "question": "What is Regression Testing?",
+    "answer": "Regression testing ensures that recent code changes have not negatively impacted existing functionality."
+  },
+  {
+    "id": 69,
+    "level": "Intermediate",
+    "question": "What is Smoke Testing?",
+    "answer": "Smoke testing is a quick check to ensure the critical functionalities of a build work before detailed testing."
+  },
+  {
+    "id": 70,
+    "level": "Intermediate",
+    "question": "What is Sanity Testing?",
+    "answer": "Sanity testing verifies specific functionality after minor changes or bug fixes."
+  },
+  {
+    "id": 71,
+    "level": "Intermediate",
+    "question": "What is SDLC?",
+    "answer": "SDLC is the Software Development Life Cycle covering planning, development, testing, deployment, and maintenance."
+  },
+  {
+    "id": 72,
+    "level": "Intermediate",
+    "question": "What is STLC?",
+    "answer": "STLC is the Software Testing Life Cycle including requirement analysis, test planning, execution, reporting, and closure."
+  },
+  {
+    "id": 73,
+    "level": "Intermediate",
+    "question": "What is Regression Testing?",
+    "answer": "Regression testing ensures that recent code changes have not negatively impacted existing functionality."
+  },
+  {
+    "id": 74,
+    "level": "Intermediate",
+    "question": "What is Smoke Testing?",
+    "answer": "Smoke testing is a quick check to ensure the critical functionalities of a build work before detailed testing."
+  },
+  {
+    "id": 75,
+    "level": "Intermediate",
+    "question": "What is Sanity Testing?",
+    "answer": "Sanity testing verifies specific functionality after minor changes or bug fixes."
+  },
+  {
+    "id": 76,
+    "level": "Intermediate",
+    "question": "What is SDLC?",
+    "answer": "SDLC is the Software Development Life Cycle covering planning, development, testing, deployment, and maintenance."
+  },
+  {
+    "id": 77,
+    "level": "Intermediate",
+    "question": "What is STLC?",
+    "answer": "STLC is the Software Testing Life Cycle including requirement analysis, test planning, execution, reporting, and closure."
+  },
+  {
+    "id": 78,
+    "level": "Intermediate",
+    "question": "What is Regression Testing?",
+    "answer": "Regression testing ensures that recent code changes have not negatively impacted existing functionality."
+  },
+  {
+    "id": 79,
+    "level": "Intermediate",
+    "question": "What is Smoke Testing?",
+    "answer": "Smoke testing is a quick check to ensure the critical functionalities of a build work before detailed testing."
+  },
+  {
+    "id": 80,
+    "level": "Intermediate",
+    "question": "What is Sanity Testing?",
+    "answer": "Sanity testing verifies specific functionality after minor changes or bug fixes."
+  },
+  {
+    "id": 81,
+    "level": "Intermediate",
+    "question": "What is SDLC?",
+    "answer": "SDLC is the Software Development Life Cycle covering planning, development, testing, deployment, and maintenance."
+  },
+  {
+    "id": 82,
+    "level": "Intermediate",
+    "question": "What is STLC?",
+    "answer": "STLC is the Software Testing Life Cycle including requirement analysis, test planning, execution, reporting, and closure."
+  },
+  {
+    "id": 83,
+    "level": "Intermediate",
+    "question": "What is Regression Testing?",
+    "answer": "Regression testing ensures that recent code changes have not negatively impacted existing functionality."
+  },
+  {
+    "id": 84,
+    "level": "Intermediate",
+    "question": "What is Smoke Testing?",
+    "answer": "Smoke testing is a quick check to ensure the critical functionalities of a build work before detailed testing."
+  },
+  {
+    "id": 85,
+    "level": "Intermediate",
+    "question": "What is Sanity Testing?",
+    "answer": "Sanity testing verifies specific functionality after minor changes or bug fixes."
+  },
+  {
+    "id": 86,
+    "level": "Intermediate",
+    "question": "What is SDLC?",
+    "answer": "SDLC is the Software Development Life Cycle covering planning, development, testing, deployment, and maintenance."
+  },
+  {
+    "id": 87,
+    "level": "Intermediate",
+    "question": "What is STLC?",
+    "answer": "STLC is the Software Testing Life Cycle including requirement analysis, test planning, execution, reporting, and closure."
+  },
+  {
+    "id": 88,
+    "level": "Intermediate",
+    "question": "What is Regression Testing?",
+    "answer": "Regression testing ensures that recent code changes have not negatively impacted existing functionality."
+  },
+  {
+    "id": 89,
+    "level": "Intermediate",
+    "question": "What is Smoke Testing?",
+    "answer": "Smoke testing is a quick check to ensure the critical functionalities of a build work before detailed testing."
+  },
+  {
+    "id": 90,
+    "level": "Intermediate",
+    "question": "What is Sanity Testing?",
+    "answer": "Sanity testing verifies specific functionality after minor changes or bug fixes."
+  },
+  {
+    "id": 91,
+    "level": "Intermediate",
+    "question": "What is SDLC?",
+    "answer": "SDLC is the Software Development Life Cycle covering planning, development, testing, deployment, and maintenance."
+  },
+  {
+    "id": 92,
+    "level": "Intermediate",
+    "question": "What is STLC?",
+    "answer": "STLC is the Software Testing Life Cycle including requirement analysis, test planning, execution, reporting, and closure."
+  },
+  {
+    "id": 93,
+    "level": "Intermediate",
+    "question": "What is Regression Testing?",
+    "answer": "Regression testing ensures that recent code changes have not negatively impacted existing functionality."
+  },
+  {
+    "id": 94,
+    "level": "Intermediate",
+    "question": "What is Smoke Testing?",
+    "answer": "Smoke testing is a quick check to ensure the critical functionalities of a build work before detailed testing."
+  },
+  {
+    "id": 95,
+    "level": "Intermediate",
+    "question": "What is Sanity Testing?",
+    "answer": "Sanity testing verifies specific functionality after minor changes or bug fixes."
+  },
+  {
+    "id": 96,
+    "level": "Intermediate",
+    "question": "What is SDLC?",
+    "answer": "SDLC is the Software Development Life Cycle covering planning, development, testing, deployment, and maintenance."
+  },
+  {
+    "id": 97,
+    "level": "Intermediate",
+    "question": "What is STLC?",
+    "answer": "STLC is the Software Testing Life Cycle including requirement analysis, test planning, execution, reporting, and closure."
+  },
+  {
+    "id": 98,
+    "level": "Intermediate",
+    "question": "What is Regression Testing?",
+    "answer": "Regression testing ensures that recent code changes have not negatively impacted existing functionality."
+  },
+  {
+    "id": 99,
+    "level": "Intermediate",
+    "question": "What is Smoke Testing?",
+    "answer": "Smoke testing is a quick check to ensure the critical functionalities of a build work before detailed testing."
+  },
+  {
+    "id": 100,
+    "level": "Intermediate",
+    "question": "What is Sanity Testing?",
+    "answer": "Sanity testing verifies specific functionality after minor changes or bug fixes."
+  },
+  {
+    "id": 101,
+    "level": "Intermediate",
+    "question": "What is SDLC?",
+    "answer": "SDLC is the Software Development Life Cycle covering planning, development, testing, deployment, and maintenance."
+  },
+  {
+    "id": 102,
+    "level": "Intermediate",
+    "question": "What is STLC?",
+    "answer": "STLC is the Software Testing Life Cycle including requirement analysis, test planning, execution, reporting, and closure."
+  },
+  {
+    "id": 103,
+    "level": "Intermediate",
+    "question": "What is Regression Testing?",
+    "answer": "Regression testing ensures that recent code changes have not negatively impacted existing functionality."
+  },
+  {
+    "id": 104,
+    "level": "Intermediate",
+    "question": "What is Smoke Testing?",
+    "answer": "Smoke testing is a quick check to ensure the critical functionalities of a build work before detailed testing."
+  },
+  {
+    "id": 105,
+    "level": "Intermediate",
+    "question": "What is Sanity Testing?",
+    "answer": "Sanity testing verifies specific functionality after minor changes or bug fixes."
+  },
+  {
+    "id": 106,
+    "level": "Intermediate",
+    "question": "What is SDLC?",
+    "answer": "SDLC is the Software Development Life Cycle covering planning, development, testing, deployment, and maintenance."
+  },
+  {
+    "id": 107,
+    "level": "Intermediate",
+    "question": "What is STLC?",
+    "answer": "STLC is the Software Testing Life Cycle including requirement analysis, test planning, execution, reporting, and closure."
+  },
+  {
+    "id": 108,
+    "level": "Intermediate",
+    "question": "What is Regression Testing?",
+    "answer": "Regression testing ensures that recent code changes have not negatively impacted existing functionality."
+  },
+  {
+    "id": 109,
+    "level": "Intermediate",
+    "question": "What is Smoke Testing?",
+    "answer": "Smoke testing is a quick check to ensure the critical functionalities of a build work before detailed testing."
+  },
+  {
+    "id": 110,
+    "level": "Intermediate",
+    "question": "What is Sanity Testing?",
+    "answer": "Sanity testing verifies specific functionality after minor changes or bug fixes."
+  },
+  {
+    "id": 111,
+    "level": "Advanced",
+    "question": "What is SDLC?",
+    "answer": "SDLC is the Software Development Life Cycle covering planning, development, testing, deployment, and maintenance."
+  },
+  {
+    "id": 112,
+    "level": "Advanced",
+    "question": "What is STLC?",
+    "answer": "STLC is the Software Testing Life Cycle including requirement analysis, test planning, execution, reporting, and closure."
+  },
+  {
+    "id": 113,
+    "level": "Advanced",
+    "question": "What is Regression Testing?",
+    "answer": "Regression testing ensures that recent code changes have not negatively impacted existing functionality."
+  },
+  {
+    "id": 114,
+    "level": "Advanced",
+    "question": "What is Smoke Testing?",
+    "answer": "Smoke testing is a quick check to ensure the critical functionalities of a build work before detailed testing."
+  },
+  {
+    "id": 115,
+    "level": "Advanced",
+    "question": "What is Sanity Testing?",
+    "answer": "Sanity testing verifies specific functionality after minor changes or bug fixes."
+  },
+  {
+    "id": 116,
+    "level": "Advanced",
+    "question": "What is SDLC?",
+    "answer": "SDLC is the Software Development Life Cycle covering planning, development, testing, deployment, and maintenance."
+  },
+  {
+    "id": 117,
+    "level": "Advanced",
+    "question": "What is STLC?",
+    "answer": "STLC is the Software Testing Life Cycle including requirement analysis, test planning, execution, reporting, and closure."
+  },
+  {
+    "id": 118,
+    "level": "Advanced",
+    "question": "What is Regression Testing?",
+    "answer": "Regression testing ensures that recent code changes have not negatively impacted existing functionality."
+  },
+  {
+    "id": 119,
+    "level": "Advanced",
+    "question": "What is Smoke Testing?",
+    "answer": "Smoke testing is a quick check to ensure the critical functionalities of a build work before detailed testing."
+  },
+  {
+    "id": 120,
+    "level": "Advanced",
+    "question": "What is Sanity Testing?",
+    "answer": "Sanity testing verifies specific functionality after minor changes or bug fixes."
+  },
+  {
+    "id": 121,
+    "level": "Advanced",
+    "question": "What is SDLC?",
+    "answer": "SDLC is the Software Development Life Cycle covering planning, development, testing, deployment, and maintenance."
+  },
+  {
+    "id": 122,
+    "level": "Advanced",
+    "question": "What is STLC?",
+    "answer": "STLC is the Software Testing Life Cycle including requirement analysis, test planning, execution, reporting, and closure."
+  },
+  {
+    "id": 123,
+    "level": "Advanced",
+    "question": "What is Regression Testing?",
+    "answer": "Regression testing ensures that recent code changes have not negatively impacted existing functionality."
+  },
+  {
+    "id": 124,
+    "level": "Advanced",
+    "question": "What is Smoke Testing?",
+    "answer": "Smoke testing is a quick check to ensure the critical functionalities of a build work before detailed testing."
+  },
+  {
+    "id": 125,
+    "level": "Advanced",
+    "question": "What is Sanity Testing?",
+    "answer": "Sanity testing verifies specific functionality after minor changes or bug fixes."
+  },
+  {
+    "id": 126,
+    "level": "Advanced",
+    "question": "What is SDLC?",
+    "answer": "SDLC is the Software Development Life Cycle covering planning, development, testing, deployment, and maintenance."
+  },
+  {
+    "id": 127,
+    "level": "Advanced",
+    "question": "What is STLC?",
+    "answer": "STLC is the Software Testing Life Cycle including requirement analysis, test planning, execution, reporting, and closure."
+  },
+  {
+    "id": 128,
+    "level": "Advanced",
+    "question": "What is Regression Testing?",
+    "answer": "Regression testing ensures that recent code changes have not negatively impacted existing functionality."
+  },
+  {
+    "id": 129,
+    "level": "Advanced",
+    "question": "What is Smoke Testing?",
+    "answer": "Smoke testing is a quick check to ensure the critical functionalities of a build work before detailed testing."
+  },
+  {
+    "id": 130,
+    "level": "Advanced",
+    "question": "What is Sanity Testing?",
+    "answer": "Sanity testing verifies specific functionality after minor changes or bug fixes."
+  },
+  {
+    "id": 131,
+    "level": "Advanced",
+    "question": "What is SDLC?",
+    "answer": "SDLC is the Software Development Life Cycle covering planning, development, testing, deployment, and maintenance."
+  },
+  {
+    "id": 132,
+    "level": "Advanced",
+    "question": "What is STLC?",
+    "answer": "STLC is the Software Testing Life Cycle including requirement analysis, test planning, execution, reporting, and closure."
+  },
+  {
+    "id": 133,
+    "level": "Advanced",
+    "question": "What is Regression Testing?",
+    "answer": "Regression testing ensures that recent code changes have not negatively impacted existing functionality."
+  },
+  {
+    "id": 134,
+    "level": "Advanced",
+    "question": "What is Smoke Testing?",
+    "answer": "Smoke testing is a quick check to ensure the critical functionalities of a build work before detailed testing."
+  },
+  {
+    "id": 135,
+    "level": "Advanced",
+    "question": "What is Sanity Testing?",
+    "answer": "Sanity testing verifies specific functionality after minor changes or bug fixes."
+  },
+  {
+    "id": 136,
+    "level": "Advanced",
+    "question": "What is SDLC?",
+    "answer": "SDLC is the Software Development Life Cycle covering planning, development, testing, deployment, and maintenance."
+  },
+  {
+    "id": 137,
+    "level": "Advanced",
+    "question": "What is STLC?",
+    "answer": "STLC is the Software Testing Life Cycle including requirement analysis, test planning, execution, reporting, and closure."
+  },
+  {
+    "id": 138,
+    "level": "Advanced",
+    "question": "What is Regression Testing?",
+    "answer": "Regression testing ensures that recent code changes have not negatively impacted existing functionality."
+  },
+  {
+    "id": 139,
+    "level": "Advanced",
+    "question": "What is Smoke Testing?",
+    "answer": "Smoke testing is a quick check to ensure the critical functionalities of a build work before detailed testing."
+  },
+  {
+    "id": 140,
+    "level": "Advanced",
+    "question": "What is Sanity Testing?",
+    "answer": "Sanity testing verifies specific functionality after minor changes or bug fixes."
+  },
+  {
+    "id": 141,
+    "level": "Advanced",
+    "question": "What is SDLC?",
+    "answer": "SDLC is the Software Development Life Cycle covering planning, development, testing, deployment, and maintenance."
+  },
+  {
+    "id": 142,
+    "level": "Advanced",
+    "question": "What is STLC?",
+    "answer": "STLC is the Software Testing Life Cycle including requirement analysis, test planning, execution, reporting, and closure."
+  },
+  {
+    "id": 143,
+    "level": "Advanced",
+    "question": "What is Regression Testing?",
+    "answer": "Regression testing ensures that recent code changes have not negatively impacted existing functionality."
+  },
+  {
+    "id": 144,
+    "level": "Advanced",
+    "question": "What is Smoke Testing?",
+    "answer": "Smoke testing is a quick check to ensure the critical functionalities of a build work before detailed testing."
+  },
+  {
+    "id": 145,
+    "level": "Advanced",
+    "question": "What is Sanity Testing?",
+    "answer": "Sanity testing verifies specific functionality after minor changes or bug fixes."
+  },
+  {
+    "id": 146,
+    "level": "Advanced",
+    "question": "What is SDLC?",
+    "answer": "SDLC is the Software Development Life Cycle covering planning, development, testing, deployment, and maintenance."
+  },
+  {
+    "id": 147,
+    "level": "Advanced",
+    "question": "What is STLC?",
+    "answer": "STLC is the Software Testing Life Cycle including requirement analysis, test planning, execution, reporting, and closure."
+  },
+  {
+    "id": 148,
+    "level": "Advanced",
+    "question": "What is Regression Testing?",
+    "answer": "Regression testing ensures that recent code changes have not negatively impacted existing functionality."
+  },
+  {
+    "id": 149,
+    "level": "Advanced",
+    "question": "What is Smoke Testing?",
+    "answer": "Smoke testing is a quick check to ensure the critical functionalities of a build work before detailed testing."
+  },
+  {
+    "id": 150,
+    "level": "Advanced",
+    "question": "What is Sanity Testing?",
+    "answer": "Sanity testing verifies specific functionality after minor changes or bug fixes."
+  }
+]

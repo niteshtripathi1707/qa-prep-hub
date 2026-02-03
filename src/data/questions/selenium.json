@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "level": "Beginner",
+    "question": "What is Selenium?",
+    "answer": "Selenium is an open-source tool used to automate web browser testing. It supports multiple languages and browsers."
+  },
+  {
+    "id": 2,
+    "level": "Beginner",
+    "question": "What is Selenium WebDriver?",
+    "answer": "WebDriver is the core Selenium component that interacts directly with browser objects to automate user actions."
+  },
+  {
+    "id": 3,
+    "level": "Beginner",
+    "question": "Which browsers does Selenium support?",
+    "answer": "Selenium supports Chrome, Firefox, Edge, Safari, and other browsers through their respective drivers."
+  },
+  {
+    "id": 4,
+    "level": "Beginner",
+    "question": "What is the difference between Selenium IDE and WebDriver?",
+    "answer": "IDE is a record-and-playback tool, while WebDriver is code-based and used for scalable automation frameworks."
+  },
+  {
+    "id": 5,
+    "level": "Beginner",
+    "question": "What is a browser driver in Selenium?",
+    "answer": "A browser driver is an executable that allows WebDriver to communicate with a specific browser (e.g., chromedriver)."
+  },
+  {
+    "id": 6,
+    "level": "Beginner",
+    "question": "What are locators in Selenium?",
+    "answer": "Locators are strategies to find web elements, like id, name, xpath, cssSelector, className, and linkText."
+  },
+  {
+    "id": 7,
+    "level": "Beginner",
+    "question": "Which locator is fastest in Selenium?",
+    "answer": "The id locator is generally the fastest and most reliable because it uniquely identifies elements."
+  },
+  {
+    "id": 8,
+    "level": "Beginner",
+    "question": "What is XPath?",
+    "answer": "XPath is a query language used to locate elements based on their XML/HTML structure and attributes."
+  },
+  {
+    "id": 9,
+    "level": "Beginner",
+    "question": "Difference between absolute and relative XPath?",
+    "answer": "Absolute XPath starts from root (/html/...), while relative XPath starts from anywhere using // and is more flexible."
+  },
+  {
+    "id": 10,
+    "level": "Beginner",
+    "question": "CSS Selector vs XPath?",
+    "answer": "CSS is faster and simpler for attributes, while XPath is more powerful for traversing DOM and handling complex paths."
+  },
+  {
+    "id": 11,
+    "level": "Beginner",
+    "question": "How do you click a button in Selenium?",
+    "answer": "First locate the element using a locator, then call element.click() to perform the click action."
+  },
+  {
+    "id": 12,
+    "level": "Beginner",
+    "question": "How do you enter text in an input field?",
+    "answer": "Use sendKeys(): element.sendKeys(\"text\") after locating the input element."
+  },
+  {
+    "id": 13,
+    "level": "Beginner",
+    "question": "How do you clear an input field?",
+    "answer": "Use element.clear() before sending new input using sendKeys()."
+  },
+  {
+    "id": 14,
+    "level": "Beginner",
+    "question": "How do you submit a form in Selenium?",
+    "answer": "You can use element.submit() on a form element or click the submit button."
+  },
+  {
+    "id": 15,
+    "level": "Beginner",
+    "question": "How do you get text from a web element?",
+    "answer": "Use element.getText() to capture visible text from an element."
+  },
+  {
+    "id": 16,
+    "level": "Beginner",
+    "question": "What is the use of getTitle()?",
+    "answer": "getTitle() returns the title of the current web page loaded in the browser."
+  },
+  {
+    "id": 17,
+    "level": "Beginner",
+    "question": "What is the use of getCurrentUrl()?",
+    "answer": "It returns the current page URL, useful for verification and navigation checks."
+  },
+  {
+    "id": 18,
+    "level": "Beginner",
+    "question": "How do you navigate back and forward?",
+    "answer": "Use driver.navigate().back() and driver.navigate().forward() for browser navigation."
+  },
+  {
+    "id": 19,
+    "level": "Beginner",
+    "question": "How do you refresh a page in Selenium?",
+    "answer": "Use driver.navigate().refresh() to reload the current page."
+  },
+  {
+    "id": 20,
+    "level": "Beginner",
+    "question": "How do you maximize the browser window?",
+    "answer": "Use driver.manage().window().maximize() to open the browser in full screen."
+  },
+  {
+    "id": 21,
+    "level": "Beginner",
+    "question": "What are waits in Selenium?",
+    "answer": "Waits handle synchronization by pausing execution until elements are available, preventing timing failures."
+  },
+  {
+    "id": 22,
+    "level": "Beginner",
+    "question": "What is Implicit Wait?",
+    "answer": "Implicit wait tells WebDriver to wait a fixed time globally before throwing NoSuchElementException."
+  },
+  {
+    "id": 23,
+    "level": "Beginner",
+    "question": "What is Explicit Wait?",
+    "answer": "Explicit wait waits for a specific condition on an element using WebDriverWait and ExpectedConditions."
+  },
+  {
+    "id": 24,
+    "level": "Beginner",
+    "question": "Which wait is preferred and why?",
+    "answer": "Explicit waits are preferred because they are condition-based and more efficient than global waits."
+  },
+  {
+    "id": 25,
+    "level": "Beginner",
+    "question": "What is Fluent Wait?",
+    "answer": "Fluent wait is an advanced explicit wait with polling intervals and exception ignoring support."
+  },
+  {
+    "id": 26,
+    "level": "Beginner",
+    "question": "How do you handle dropdowns in Selenium?",
+    "answer": "Use the Select class with methods like selectByVisibleText(), selectByValue(), or selectByIndex()."
+  },
+  {
+    "id": 27,
+    "level": "Beginner",
+    "question": "How do you handle alerts?",
+    "answer": "Switch to alert using driver.switchTo().alert(), then accept(), dismiss(), or getText()."
+  },
+  {
+    "id": 28,
+    "level": "Beginner",
+    "question": "How do you handle frames?",
+    "answer": "Use driver.switchTo().frame() with index, name, or element, and switch back with defaultContent()."
+  },
+  {
+    "id": 29,
+    "level": "Beginner",
+    "question": "How do you handle multiple windows?",
+    "answer": "Use getWindowHandles() to iterate window IDs and switch using driver.switchTo().window()."
+  },
+  {
+    "id": 30,
+    "level": "Beginner",
+    "question": "How do you take a screenshot in Selenium?",
+    "answer": "Use TakesScreenshot interface and save the captured output file."
+  },
+  {
+    "id": 31,
+    "level": "Beginner",
+    "question": "What is NoSuchElementException?",
+    "answer": "It occurs when Selenium cannot find an element using the given locator on the page."
+  },
+  {
+    "id": 32,
+    "level": "Beginner",
+    "question": "What is StaleElementReferenceException?",
+    "answer": "It happens when the element reference becomes invalid due to DOM updates or page refresh."
+  },
+  {
+    "id": 33,
+    "level": "Beginner",
+    "question": "What is ElementNotInteractableException?",
+    "answer": "It occurs when an element exists but cannot be interacted with, often due to visibility or overlay issues."
+  },
+  {
+    "id": 34,
+    "level": "Beginner",
+    "question": "What is the difference between findElement and findElements?",
+    "answer": "findElement returns one element or throws exception; findElements returns a list (empty if none found)."
+  },
+  {
+    "id": 35,
+    "level": "Beginner",
+    "question": "How do you check if an element is displayed?",
+    "answer": "Use element.isDisplayed() to verify if the element is visible on the page."
+  },
+  {
+    "id": 36,
+    "level": "Beginner",
+    "question": "How do you verify if a checkbox is selected?",
+    "answer": "Use element.isSelected() to check whether a checkbox or radio button is selected."
+  },
+  {
+    "id": 37,
+    "level": "Beginner",
+    "question": "How do you handle radio buttons?",
+    "answer": "Locate the radio button and click it, then confirm selection using isSelected()."
+  },
+  {
+    "id": 38,
+    "level": "Beginner",
+    "question": "What is the Actions class used for?",
+    "answer": "Actions class is used for advanced user interactions like hover, drag-drop, double click, and right click."
+  },
+  {
+    "id": 39,
+    "level": "Beginner",
+    "question": "How do you perform mouse hover?",
+    "answer": "Use Actions.moveToElement(element).perform() to hover over an element."
+  },
+  {
+    "id": 40,
+    "level": "Beginner",
+    "question": "How do you drag and drop elements?",
+    "answer": "Use Actions.dragAndDrop(source, target).perform() for drag-and-drop interaction."
+  },
+  {
+    "id": 41,
+    "level": "Beginner",
+    "question": "What is WebDriver interface?",
+    "answer": "WebDriver is the main interface in Selenium that provides methods to control browser behavior."
+  },
+  {
+    "id": 42,
+    "level": "Beginner",
+    "question": "What is WebElement?",
+    "answer": "WebElement represents an HTML element and provides methods like click(), sendKeys(), and getText()."
+  },
+  {
+    "id": 43,
+    "level": "Beginner",
+    "question": "What is the use of driver.quit()?",
+    "answer": "quit() closes all browser windows and ends the WebDriver session completely."
+  },
+  {
+    "id": 44,
+    "level": "Beginner",
+    "question": "Difference between close() and quit()?",
+    "answer": "close() closes the current window only; quit() closes all windows and ends the session."
+  },
+  {
+    "id": 45,
+    "level": "Beginner",
+    "question": "What is the Page Object Model (POM)?",
+    "answer": "POM is a design pattern where each page is represented as a class to improve maintainability and readability."
+  },
+  {
+    "id": 46,
+    "level": "Beginner",
+    "question": "Why is POM useful?",
+    "answer": "It reduces code duplication and improves test maintenance by separating locators and actions from tests."
+  },
+  {
+    "id": 47,
+    "level": "Beginner",
+    "question": "What is a test automation framework?",
+    "answer": "A framework is a structured approach combining tools, libraries, and best practices for scalable automation."
+  },
+  {
+    "id": 48,
+    "level": "Beginner",
+    "question": "Can Selenium automate desktop applications?",
+    "answer": "No, Selenium is only for web applications. Desktop apps require tools like WinAppDriver or AutoIt."
+  },
+  {
+    "id": 49,
+    "level": "Beginner",
+    "question": "Can Selenium automate CAPTCHA?",
+    "answer": "No, CAPTCHA is designed to block automation. Testing should bypass it using test environments or disabling CAPTCHA."
+  },
+  {
+    "id": 50,
+    "level": "Beginner",
+    "question": "What are the limitations of Selenium?",
+    "answer": "Selenium cannot test desktop apps, cannot handle CAPTCHA, and requires frameworks for reporting and execution management."
+  }
+]

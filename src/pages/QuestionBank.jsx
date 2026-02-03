@@ -44,9 +44,9 @@ export default function QuestionBank() {
 
   return (
     <div>
-      <h2 className="text-3xl font-bold mb-3">Interview Question Bank</h2>
-      <p className="text-gray-600 dark:text-gray-400 mb-8">
-        Practice real QA interview questions with click-to-expand answers.
+      <h2 className="text-4xl font-bold mb-4">Interview Question Bank</h2>
+      <p className="text-lg text-gray-600 dark:text-gray-400 mb-8">
+        Practice with expand/collapse answers.
       </p>
 
       {/* Controls */}
@@ -74,7 +74,7 @@ export default function QuestionBank() {
             setSearch(e.target.value);
             setPage(1);
           }}
-          className="flex-1 p-3 rounded-xl border dark:bg-gray-900 dark:border-gray-700"
+          className="w-full p-4 rounded-2xl border text-base"
         />
       </div>
 

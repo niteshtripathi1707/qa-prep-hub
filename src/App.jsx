@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
@@ -14,6 +14,14 @@ import MockInterview from "./pages/MockInterview";
 export default function App() {
   const [darkMode, setDarkMode] = useState(false);
 
+  useEffect(() => {
+    if (darkMode) {
+      document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+    }
+  }, [darkMode]);
+
   return (
     <Router>
       <div className={darkMode ? "dark" : ""}>
@@ -22,7 +30,7 @@ export default function App() {
 
           <div className="flex">
             {/* Sidebar */}
-            <Sidebar />
+            {/* <Sidebar /> */}
 
             {/* Main Content */}
             <main className="flex-1 p-6 md:p-10">

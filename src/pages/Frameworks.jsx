@@ -1,95 +1,38 @@
 import React, { useState } from "react";
 
-const frameworks = {
-  Cypress: {
-    Beginner: [
-      {
-        question: "What is Cypress used for?",
-        answer:
-          "Cypress is an end-to-end testing framework for modern web apps with fast execution and built-in waits."
-      }
-    ],
-    Intermediate: [
-      {
-        question: "Explain Cypress fixtures.",
-        answer:
-          "Fixtures are external test data files (JSON) that can be loaded inside Cypress tests."
-      }
-    ],
-    Advanced: [
-      {
-        question: "How does Cypress handle automatic waiting?",
-        answer:
-          "Cypress automatically retries DOM queries and assertions until they pass or timeout."
-      }
-    ]
-  },
+/* ✅ Import JSON datasets */
+import cypress from "../data/questions/cypress.json";
+import playwright from "../data/questions/playwright.json";
+import selenium from "../data/questions/selenium.json";
 
-  Playwright: {
-    Beginner: [
-      {
-        question: "What is Playwright?",
-        answer:
-          "Playwright is a browser automation framework supporting Chromium, Firefox, and WebKit with strong parallel support."
-      }
-    ],
-    Intermediate: [
-      {
-        question: "Playwright vs Selenium?",
-        answer:
-          "Playwright provides built-in auto waits, modern browser control, and faster execution than Selenium."
-      }
-    ],
-    Advanced: [
-      {
-        question: "Explain Playwright parallel execution.",
-        answer:
-          "Playwright runs tests in parallel using workers defined in the config file."
-      }
-    ]
-  },
-
-  Selenium: {
-    Beginner: [
-      {
-        question: "What is Selenium WebDriver?",
-        answer:
-          "Selenium WebDriver is a tool used to automate browser interactions for functional testing."
-      }
-    ],
-    Intermediate: [
-      {
-        question: "What is Page Object Model?",
-        answer:
-          "POM is a design pattern where each page is represented as a class containing locators and methods."
-      }
-    ],
-    Advanced: [
-      {
-        question: "How to handle stale elements?",
-        answer:
-          "Re-locate the element after DOM refresh or use explicit waits before interacting."
-      }
-    ]
-  }
+/* ✅ Map framework name → dataset */
+const frameworkData = {
+  Cypress: cypress,
+  Playwright: playwright,
+  Selenium: selenium
 };
 
 export default function Frameworks() {
-  const [activeFramework, setActiveFramework] = useState("Cypress");
+  const [framework, setFramework] = useState("Cypress");
   const [level, setLevel] = useState("Beginner");
+
+  /* ✅ Filter questions by level */
+  const questions = frameworkData[framework].filter(
+    (q) => q.level === level
+  );
 
   return (
     <div>
       <h2 className="text-3xl font-bold mb-6">Automation Frameworks</h2>
 
-      {/* Framework Selector */}
+      {/* Framework Tabs */}
       <div className="flex gap-3 mb-6">
-        {Object.keys(frameworks).map((fw) => (
+        {Object.keys(frameworkData).map((fw) => (
           <button
             key={fw}
-            onClick={() => setActiveFramework(fw)}
+            onClick={() => setFramework(fw)}
             className={`px-5 py-2 rounded-2xl border transition ${
-              activeFramework === fw
+              framework === fw
                 ? "bg-blue-600 text-white"
                 : "bg-white dark:bg-gray-900 border-gray-300 dark:border-gray-700"
             }`}
@@ -99,8 +42,8 @@ export default function Frameworks() {
         ))}
       </div>
 
-      {/* Level Selector */}
-      <div className="flex gap-3 mb-8">
+      {/* Level Tabs */}
+      <div className="flex gap-3 mb-10">
         {["Beginner", "Intermediate", "Advanced"].map((l) => (
           <button
             key={l}
@@ -116,19 +59,28 @@ export default function Frameworks() {
         ))}
       </div>
 
-      {/* Questionnaire */}
-      <div className="space-y-4">
-        {frameworks[activeFramework][level].map((q, i) => (
-          <div
-            key={i}
-            className="p-6 rounded-2xl bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 shadow-sm"
-          >
-            <h3 className="font-semibold">Q: {q.question}</h3>
-            <p className="mt-3 text-gray-600 dark:text-gray-300">
-              ✅ {q.answer}
-            </p>
-          </div>
-        ))}
+      {/* Render Questions */}
+      <div className="space-y-5">
+        {questions.length > 0 ? (
+          questions.map((q) => (
+            <div
+              key={q.id}
+              className="p-6 rounded-2xl bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 shadow-sm"
+            >
+              <h3 className="font-semibold text-lg">
+                Q: {q.question}
+              </h3>
+
+              <p className="mt-3 text-gray-700 dark:text-gray-300 leading-relaxed">
+                ✅ {q.answer}
+              </p>
+            </div>
+          ))
+        ) : (
+          <p className="text-gray-500">
+            No questions available for this level yet.
+          </p>
+        )}
       </div>
     </div>
   );

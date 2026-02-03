@@ -298,5 +298,605 @@
     "level": "Beginner",
     "question": "What are the limitations of Selenium?",
     "answer": "Selenium cannot test desktop apps, cannot handle CAPTCHA, and requires frameworks for reporting and execution management."
+  },
+  {
+    "id": 51,
+    "level": "Intermediate",
+    "question": "What is RemoteWebDriver used for in Selenium?",
+    "answer": "RemoteWebDriver is used to execute tests on remote machines via Selenium Grid or cloud platforms instead of running locally."
+  },
+  {
+    "id": 52,
+    "level": "Intermediate",
+    "question": "How do you run Selenium tests in headless mode?",
+    "answer": "You configure browser options like ChromeOptions with --headless, allowing tests to run without opening a browser UI."
+  },
+  {
+    "id": 53,
+    "level": "Intermediate",
+    "question": "What is the purpose of ChromeOptions in Selenium?",
+    "answer": "ChromeOptions lets you customize Chrome behavior, such as running headless, disabling extensions, or setting preferences."
+  },
+  {
+    "id": 54,
+    "level": "Intermediate",
+    "question": "How do you handle file upload in Selenium?",
+    "answer": "Send the file path directly to an <input type='file'> element using sendKeys(), avoiding OS dialogs."
+  },
+  {
+    "id": 55,
+    "level": "Intermediate",
+    "question": "What is the difference between driver.navigate().to() and driver.get()?",
+    "answer": "Both open a URL, but navigate().to() is part of navigation API supporting back/forward/refresh operations."
+  },
+  {
+    "id": 56,
+    "level": "Intermediate",
+    "question": "How do you handle dynamic dropdowns in Selenium?",
+    "answer": "For non-select dropdowns, you must click the dropdown and choose options using locators instead of Select class."
+  },
+  {
+    "id": 57,
+    "level": "Intermediate",
+    "question": "What is the use of WebDriverWait?",
+    "answer": "WebDriverWait provides explicit waiting until a condition like visibility or clickability of an element is satisfied."
+  },
+  {
+    "id": 58,
+    "level": "Intermediate",
+    "question": "Why is Thread.sleep() not recommended in Selenium?",
+    "answer": "Thread.sleep() is a fixed wait that slows tests and causes flakiness, while explicit waits are condition-based."
+  },
+  {
+    "id": 59,
+    "level": "Intermediate",
+    "question": "How do you wait for an element to disappear?",
+    "answer": "Use WebDriverWait with ExpectedConditions.invisibilityOfElementLocated() to ensure loading spinners are gone."
+  },
+  {
+    "id": 60,
+    "level": "Intermediate",
+    "question": "What is JavaScriptExecutor used for?",
+    "answer": "JavaScriptExecutor runs JavaScript directly in the browser for operations like scrolling or clicking hidden elements."
+  },
+  {
+    "id": 61,
+    "level": "Intermediate",
+    "question": "How do you scroll to an element in Selenium?",
+    "answer": "Use JavaScriptExecutor: arguments[0].scrollIntoView(true) to bring elements into the viewport."
+  },
+  {
+    "id": 62,
+    "level": "Intermediate",
+    "question": "How do you handle stale element reference exceptions?",
+    "answer": "Re-locate the element after DOM refresh or apply explicit waits before interacting again."
+  },
+  {
+    "id": 63,
+    "level": "Intermediate",
+    "question": "What is Page Object Model (POM)?",
+    "answer": "POM is a framework design pattern where each page is represented as a class containing locators and actions."
+  },
+  {
+    "id": 64,
+    "level": "Intermediate",
+    "question": "What is Page Factory in Selenium?",
+    "answer": "Page Factory initializes web elements using @FindBy annotations, making Page Object implementation cleaner."
+  },
+  {
+    "id": 65,
+    "level": "Intermediate",
+    "question": "What is the advantage of using POM?",
+    "answer": "POM improves maintainability by separating test logic from UI locators, reducing code duplication."
+  },
+  {
+    "id": 66,
+    "level": "Intermediate",
+    "question": "How do you handle multiple windows in Selenium?",
+    "answer": "Use getWindowHandles() to capture IDs and switch using driver.switchTo().window(handle)."
+  },
+  {
+    "id": 67,
+    "level": "Intermediate",
+    "question": "How do you handle browser popups in Selenium?",
+    "answer": "Browser-level auth popups require workarounds like embedding credentials in URL or using browser profiles."
+  },
+  {
+    "id": 68,
+    "level": "Intermediate",
+    "question": "How do you handle alerts in Selenium?",
+    "answer": "Switch to alert using driver.switchTo().alert() and then accept(), dismiss(), or getText()."
+  },
+  {
+    "id": 69,
+    "level": "Intermediate",
+    "question": "How do you handle iframes in Selenium?",
+    "answer": "Use driver.switchTo().frame() to enter iframe context, then switch back with defaultContent()."
+  },
+  {
+    "id": 70,
+    "level": "Intermediate",
+    "question": "How do you perform mouse hover actions?",
+    "answer": "Use Actions class: new Actions(driver).moveToElement(element).perform()."
+  },
+  {
+    "id": 71,
+    "level": "Intermediate",
+    "question": "How do you implement data-driven testing in Selenium?",
+    "answer": "Use external sources like Excel, CSV, or TestNG DataProvider to supply multiple datasets for one test."
+  },
+  {
+    "id": 72,
+    "level": "Intermediate",
+    "question": "What is Selenium Grid used for?",
+    "answer": "Selenium Grid enables parallel execution across multiple machines and browsers, improving test coverage and speed."
+  },
+  {
+    "id": 73,
+    "level": "Intermediate",
+    "question": "What is DesiredCapabilities used for?",
+    "answer": "DesiredCapabilities defines browser properties such as platform, version, and browser type for remote execution."
+  },
+  {
+    "id": 74,
+    "level": "Intermediate",
+    "question": "How do you capture screenshots on failure?",
+    "answer": "Use TakesScreenshot interface in a test listener to capture screenshots automatically when a test fails."
+  },
+  {
+    "id": 75,
+    "level": "Intermediate",
+    "question": "What is the use of TestNG annotations?",
+    "answer": "Annotations like @BeforeTest, @Test, and @AfterTest control test execution flow and setup/teardown."
+  },
+  {
+    "id": 76,
+    "level": "Intermediate",
+    "question": "How do you handle synchronization issues in Selenium?",
+    "answer": "Use explicit waits, avoid static sleeps, and design stable locators to handle dynamic loading."
+  },
+  {
+    "id": 77,
+    "level": "Intermediate",
+    "question": "What is implicit wait and why is it risky?",
+    "answer": "Implicit wait applies globally and may cause unpredictable delays, especially when combined with explicit waits."
+  },
+  {
+    "id": 78,
+    "level": "Intermediate",
+    "question": "How do you check element presence without exception?",
+    "answer": "Use findElements() which returns an empty list instead of throwing NoSuchElementException."
+  },
+  {
+    "id": 79,
+    "level": "Intermediate",
+    "question": "How do you handle tooltips in Selenium?",
+    "answer": "Tooltips can be validated by fetching the title attribute or hovering and capturing the displayed tooltip text."
+  },
+  {
+    "id": 80,
+    "level": "Intermediate",
+    "question": "How do you handle date pickers in Selenium?",
+    "answer": "Either send the date directly to input fields or navigate the calendar UI and select the date element."
+  },
+  {
+    "id": 81,
+    "level": "Intermediate",
+    "question": "What is the difference between getText() and getAttribute()?",
+    "answer": "getText() returns visible element text, while getAttribute() retrieves attribute values like value or href."
+  },
+  {
+    "id": 82,
+    "level": "Intermediate",
+    "question": "How do you handle cookies in Selenium?",
+    "answer": "Use driver.manage().getCookies(), addCookie(), and deleteAllCookies() for cookie management."
+  },
+  {
+    "id": 83,
+    "level": "Intermediate",
+    "question": "What is the use of Actions class?",
+    "answer": "Actions class supports advanced interactions like drag-drop, hover, right-click, and keyboard actions."
+  },
+  {
+    "id": 84,
+    "level": "Intermediate",
+    "question": "How do you simulate keyboard events?",
+    "answer": "Use Actions.sendKeys(Keys.ENTER) or element.sendKeys() for keyboard interactions."
+  },
+  {
+    "id": 85,
+    "level": "Intermediate",
+    "question": "How do you handle dynamic web tables?",
+    "answer": "Locate rows/columns using XPath or CSS and iterate through table elements to validate values."
+  },
+  {
+    "id": 86,
+    "level": "Intermediate",
+    "question": "What is test automation framework architecture?",
+    "answer": "A framework includes POM, reusable utilities, reporting, data management, CI integration, and modular test design."
+  },
+  {
+    "id": 87,
+    "level": "Intermediate",
+    "question": "What is the role of Maven/Gradle in Selenium projects?",
+    "answer": "They manage dependencies, build lifecycle, and integration with CI pipelines for automated test execution."
+  },
+  {
+    "id": 88,
+    "level": "Intermediate",
+    "question": "How do you integrate Selenium tests with Jenkins?",
+    "answer": "Configure Jenkins jobs to run Maven/TestNG commands, publish reports, and schedule automated executions."
+  },
+  {
+    "id": 89,
+    "level": "Intermediate",
+    "question": "How do you manage test environments in Selenium automation?",
+    "answer": "Use config files or environment variables to run tests across QA, staging, or production without code changes."
+  },
+  {
+    "id": 90,
+    "level": "Intermediate",
+    "question": "What is the best locator strategy in Selenium?",
+    "answer": "Prefer stable locators like id or data-testid, avoiding brittle XPath based on indexes or dynamic attributes."
+  },
+  {
+    "id": 91,
+    "level": "Intermediate",
+    "question": "How do you handle Shadow DOM elements?",
+    "answer": "Selenium requires JavaScript execution or newer WebDriver support since Shadow DOM elements are not directly accessible."
+  },
+  {
+    "id": 92,
+    "level": "Intermediate",
+    "question": "How do you run tests on different browsers?",
+    "answer": "Use WebDriver implementations like ChromeDriver, FirefoxDriver, EdgeDriver or parameterize browser selection."
+  },
+  {
+    "id": 93,
+    "level": "Intermediate",
+    "question": "What is cross-browser testing in Selenium?",
+    "answer": "Cross-browser testing ensures application behavior is consistent across browsers like Chrome, Firefox, Edge, and Safari."
+  },
+  {
+    "id": 94,
+    "level": "Intermediate",
+    "question": "How do you implement logging in Selenium framework?",
+    "answer": "Use logging libraries like Log4j or SLF4J to capture execution details for debugging and reporting."
+  },
+  {
+    "id": 95,
+    "level": "Intermediate",
+    "question": "What is Extent Report?",
+    "answer": "Extent Report is a popular reporting library for Selenium frameworks that generates HTML reports with logs and screenshots."
+  },
+  {
+    "id": 96,
+    "level": "Intermediate",
+    "question": "How do you handle flaky tests in Selenium?",
+    "answer": "Improve synchronization, stabilize locators, reduce dependency on test data, and run retries only when needed."
+  },
+  {
+    "id": 97,
+    "level": "Intermediate",
+    "question": "What is the difference between Selenium 3 and Selenium 4?",
+    "answer": "Selenium 4 introduced W3C compliance, relative locators, improved Grid architecture, and DevTools integration."
+  },
+  {
+    "id": 98,
+    "level": "Intermediate",
+    "question": "What are relative locators in Selenium 4?",
+    "answer": "Relative locators allow finding elements based on position, like above(), below(), near(), leftOf(), rightOf()."
+  },
+  {
+    "id": 99,
+    "level": "Intermediate",
+    "question": "How do you handle network throttling or Chrome DevTools features?",
+    "answer": "Selenium 4 supports Chrome DevTools Protocol integration to capture performance logs or simulate network conditions."
+  },
+  {
+    "id": 100,
+    "level": "Intermediate",
+    "question": "What is the most common reason for Selenium test failures?",
+    "answer": "Most failures occur due to synchronization issues, unstable locators, dynamic DOM changes, or environment instability."
+  },
+  {
+    "id": 101,
+    "level": "Advanced",
+    "question": "How do you design a scalable Selenium automation framework from scratch?",
+    "answer": "Use Page Object Model, modular utilities, reusable waits, reporting, data management, and CI integration to keep it maintainable."
+  },
+  {
+    "id": 102,
+    "level": "Advanced",
+    "question": "What is the best approach to handle flaky Selenium tests in large suites?",
+    "answer": "Fix synchronization issues, stabilize locators, isolate test data dependencies, and avoid retries as a primary solution."
+  },
+  {
+    "id": 103,
+    "level": "Advanced",
+    "question": "How do you implement parallel execution efficiently in Selenium frameworks?",
+    "answer": "Use TestNG/JUnit parallel execution with thread-safe drivers or Selenium Grid to run tests across multiple nodes."
+  },
+  {
+    "id": 104,
+    "level": "Advanced",
+    "question": "What is ThreadLocal in Selenium and why is it important?",
+    "answer": "ThreadLocal provides separate WebDriver instances per thread, preventing conflicts when running tests in parallel."
+  },
+  {
+    "id": 105,
+    "level": "Advanced",
+    "question": "How do you manage WebDriver instances in a multi-threaded framework?",
+    "answer": "Use a DriverFactory with ThreadLocal storage and proper setup/teardown to avoid shared state issues."
+  },
+  {
+    "id": 106,
+    "level": "Advanced",
+    "question": "How does Selenium Grid 4 improve over Grid 3?",
+    "answer": "Grid 4 has a redesigned architecture, better scalability, Docker support, observability, and W3C WebDriver compliance."
+  },
+  {
+    "id": 107,
+    "level": "Advanced",
+    "question": "How do you execute Selenium tests in Docker containers?",
+    "answer": "Use Selenium Grid Docker images and run browser nodes in containers to ensure consistent environments in CI pipelines."
+  },
+  {
+    "id": 108,
+    "level": "Advanced",
+    "question": "How do you integrate Selenium automation with cloud services like BrowserStack or Sauce Labs?",
+    "answer": "Use RemoteWebDriver with cloud hub URLs and desired capabilities to run tests across real devices and browsers."
+  },
+  {
+    "id": 109,
+    "level": "Advanced",
+    "question": "What is the role of DesiredCapabilities in remote execution?",
+    "answer": "DesiredCapabilities define browser, platform, version, and execution settings required for remote Selenium sessions."
+  },
+  {
+    "id": 110,
+    "level": "Advanced",
+    "question": "How do you perform visual regression testing with Selenium?",
+    "answer": "Capture screenshots during runs and compare them using tools like Applitools or image diff libraries."
+  },
+  {
+    "id": 111,
+    "level": "Advanced",
+    "question": "How do you handle Shadow DOM automation in Selenium frameworks?",
+    "answer": "Use JavaScriptExecutor or Selenium 4 ShadowRoot APIs to interact with elements inside Shadow DOM."
+  },
+  {
+    "id": 112,
+    "level": "Advanced",
+    "question": "What are best practices for writing stable locators in Selenium?",
+    "answer": "Prefer id or data-testid attributes, avoid dynamic XPath, and never rely on index-based locators."
+  },
+  {
+    "id": 113,
+    "level": "Advanced",
+    "question": "How do you implement retry logic for flaky failures properly?",
+    "answer": "Retries should be minimal, controlled via listeners, and only applied after fixing synchronization and environment issues."
+  },
+  {
+    "id": 114,
+    "level": "Advanced",
+    "question": "What is the difference between Selenium waits and fluent custom waits?",
+    "answer": "Custom fluent waits allow configurable polling intervals and ignored exceptions, improving stability for dynamic apps."
+  },
+  {
+    "id": 115,
+    "level": "Advanced",
+    "question": "How do you handle network-level validations in Selenium automation?",
+    "answer": "Use Selenium 4 DevTools integration or proxy tools like BrowserMob Proxy to capture and assert network traffic."
+  },
+  {
+    "id": 116,
+    "level": "Advanced",
+    "question": "How do you automate CAPTCHA scenarios in Selenium testing?",
+    "answer": "CAPTCHA cannot be automated reliably; testing should bypass it using test environments or disabling it in QA builds."
+  },
+  {
+    "id": 117,
+    "level": "Advanced",
+    "question": "How do you build a CI/CD pipeline for Selenium automation?",
+    "answer": "Run tests headless via Maven, generate reports, publish artifacts, and schedule execution in Jenkins/GitHub Actions."
+  },
+  {
+    "id": 118,
+    "level": "Advanced",
+    "question": "How do you handle database validation along with Selenium UI tests?",
+    "answer": "Use JDBC or ORM queries in backend validation layers to verify data consistency after UI actions."
+  },
+  {
+    "id": 119,
+    "level": "Advanced",
+    "question": "What is hybrid automation framework design?",
+    "answer": "Hybrid frameworks combine POM, data-driven, keyword-driven, and modular utilities for flexible enterprise automation."
+  },
+  {
+    "id": 120,
+    "level": "Advanced",
+    "question": "How do you implement reporting and logging in Selenium frameworks?",
+    "answer": "Use ExtentReports/Allure with Log4j and attach screenshots on failures for actionable debugging."
+  },
+  {
+    "id": 121,
+    "level": "Advanced",
+    "question": "How do you handle cross-browser execution at scale?",
+    "answer": "Use Selenium Grid or cloud platforms with parallel pipelines to run tests across Chrome, Firefox, Edge, and Safari."
+  },
+  {
+    "id": 122,
+    "level": "Advanced",
+    "question": "What is the best strategy to automate dynamic single-page applications?",
+    "answer": "Use explicit waits for DOM updates, stable locators, and avoid hardcoded sleeps due to async rendering."
+  },
+  {
+    "id": 123,
+    "level": "Advanced",
+    "question": "How do you validate performance issues in Selenium tests?",
+    "answer": "Selenium is not ideal for performance testing; use JMeter/k6, but Selenium can capture basic load times via DevTools."
+  },
+  {
+    "id": 124,
+    "level": "Advanced",
+    "question": "How do you handle complex authentication flows like SSO in Selenium?",
+    "answer": "Use pre-authenticated sessions, cookies injection, or API-level authentication setup instead of repeated UI logins."
+  },
+  {
+    "id": 125,
+    "level": "Advanced",
+    "question": "How do you manage test data in enterprise Selenium automation?",
+    "answer": "Use API-driven setup, database seeding, isolated environments, and cleanup strategies to ensure deterministic runs."
+  },
+  {
+    "id": 126,
+    "level": "Advanced",
+    "question": "What is the role of BDD frameworks like Cucumber with Selenium?",
+    "answer": "BDD frameworks enable business-readable scenarios, mapping step definitions to Selenium actions for collaboration."
+  },
+  {
+    "id": 127,
+    "level": "Advanced",
+    "question": "How do you avoid code duplication in Selenium automation?",
+    "answer": "Use reusable page methods, shared utilities, test base classes, and abstraction layers for common workflows."
+  },
+  {
+    "id": 128,
+    "level": "Advanced",
+    "question": "What are anti-patterns in Selenium automation frameworks?",
+    "answer": "Hardcoded waits, brittle XPath, mixed test logic in page classes, shared drivers across threads, and excessive retries."
+  },
+  {
+    "id": 129,
+    "level": "Advanced",
+    "question": "How do you implement API + UI combined automation strategy?",
+    "answer": "Use API calls for setup/teardown and Selenium for UI validations to reduce execution time and improve reliability."
+  },
+  {
+    "id": 130,
+    "level": "Advanced",
+    "question": "How do you handle browser session reuse safely?",
+    "answer": "Reuse sessions carefully with isolated contexts, ensuring cookies and state do not leak between tests."
+  },
+  {
+    "id": 131,
+    "level": "Advanced",
+    "question": "How do you debug failures in a remote Selenium Grid environment?",
+    "answer": "Use video recordings, screenshots, logs, and Grid observability dashboards for root-cause analysis."
+  },
+  {
+    "id": 132,
+    "level": "Advanced",
+    "question": "What is observability in Selenium Grid 4?",
+    "answer": "Grid 4 provides monitoring, tracing, logs, and event-driven insights into test execution for better debugging."
+  },
+  {
+    "id": 133,
+    "level": "Advanced",
+    "question": "How do you implement secure credential handling in Selenium automation?",
+    "answer": "Store secrets in vaults or CI secure variables, never hardcode passwords in test scripts."
+  },
+  {
+    "id": 134,
+    "level": "Advanced",
+    "question": "How do you test accessibility using Selenium?",
+    "answer": "Integrate accessibility tools like axe-core with Selenium tests to validate WCAG compliance."
+  },
+  {
+    "id": 135,
+    "level": "Advanced",
+    "question": "How do you manage framework configuration for multiple environments?",
+    "answer": "Use property files, environment variables, and config managers to switch URLs, browsers, and data dynamically."
+  },
+  {
+    "id": 136,
+    "level": "Advanced",
+    "question": "How do you ensure Selenium automation is maintainable long-term?",
+    "answer": "Adopt clean design patterns, enforce coding standards, refactor frequently, and prioritize stable locators."
+  },
+  {
+    "id": 137,
+    "level": "Advanced",
+    "question": "What is the role of contract testing in Selenium-based automation?",
+    "answer": "Contract testing ensures APIs remain stable so UI tests do not break due to backend changes unexpectedly."
+  },
+  {
+    "id": 138,
+    "level": "Advanced",
+    "question": "How do you validate email or OTP flows in Selenium tests?",
+    "answer": "Use test inbox APIs or backend mocks instead of relying on real email delivery in automation."
+  },
+  {
+    "id": 139,
+    "level": "Advanced",
+    "question": "How do you implement screenshot comparison in Selenium frameworks?",
+    "answer": "Store baseline images and compare with current screenshots using pixel-diff tools for UI regression checks."
+  },
+  {
+    "id": 140,
+    "level": "Advanced",
+    "question": "How do you handle complex DOM animations in Selenium automation?",
+    "answer": "Wait for animations to complete using explicit conditions like elementToBeClickable before interacting."
+  },
+  {
+    "id": 141,
+    "level": "Advanced",
+    "question": "How do you test browser notifications in Selenium?",
+    "answer": "Configure browser profiles/options to allow or block notifications, since native popups are difficult to automate."
+  },
+  {
+    "id": 142,
+    "level": "Advanced",
+    "question": "How do you optimize Selenium execution time in CI pipelines?",
+    "answer": "Run in parallel, avoid redundant UI setup, use API-based login, and execute smoke suites before full regression."
+  },
+  {
+    "id": 143,
+    "level": "Advanced",
+    "question": "What is the best practice for exception handling in Selenium tests?",
+    "answer": "Handle exceptions centrally via listeners, capture diagnostics, and avoid swallowing failures silently."
+  },
+  {
+    "id": 144,
+    "level": "Advanced",
+    "question": "How do you implement robust page synchronization strategies?",
+    "answer": "Wait for key DOM states, avoid implicit waits, use custom wait utilities for application-specific readiness."
+  },
+  {
+    "id": 145,
+    "level": "Advanced",
+    "question": "How do you execute Selenium tests in Kubernetes environments?",
+    "answer": "Deploy Selenium Grid as Kubernetes pods and scale browser nodes dynamically for distributed execution."
+  },
+  {
+    "id": 146,
+    "level": "Advanced",
+    "question": "What is Selenium Manager in Selenium 4.6+?",
+    "answer": "Selenium Manager automatically manages browser drivers, reducing manual driver setup and version mismatch issues."
+  },
+  {
+    "id": 147,
+    "level": "Advanced",
+    "question": "How do you handle browser-specific inconsistencies in automation?",
+    "answer": "Use cross-browser validations, conditional handling, and prioritize WebDriver standards for consistent behavior."
+  },
+  {
+    "id": 148,
+    "level": "Advanced",
+    "question": "What is the best approach to test micro-frontend applications with Selenium?",
+    "answer": "Use independent POM layers per module, stable locators, and contract testing across integrated components."
+  },
+  {
+    "id": 149,
+    "level": "Advanced",
+    "question": "How do you enforce quality gates using Selenium automation results?",
+    "answer": "Integrate automation into CI pipelines with pass/fail thresholds, reporting dashboards, and regression gating before deployment."
+  },
+  {
+    "id": 150,
+    "level": "Advanced",
+    "question": "What makes a Selenium automation suite enterprise-ready?",
+    "answer": "Parallel execution, stable framework design, CI/CD integration, strong reporting, maintainable patterns, and low flaky failure rates."
   }
 ]

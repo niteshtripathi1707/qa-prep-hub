@@ -4,32 +4,34 @@ export default function QuestionCard({ question }) {
   const [open, setOpen] = useState(false);
 
   return (
-    <div
-      className="p-5 bg-white dark:bg-gray-900 rounded-2xl shadow-sm border border-gray-200 dark:border-gray-800 hover:shadow-md transition"
-    >
-      {/* Question Header */}
+    <div className="p-6 bg-white dark:bg-gray-900 rounded-2xl border border-gray-200 dark:border-gray-800 shadow-sm">
+      
+      {/* Question */}
       <button
         onClick={() => setOpen(!open)}
         className="w-full text-left flex justify-between items-center"
       >
-        <h3 className="font-semibold text-gray-900 dark:text-white">
+        <h3 className="text-lg font-semibold leading-snug">
           Q: {question.question}
         </h3>
 
-        <span className="text-sm text-gray-500">
+        <span className="text-gray-500 text-sm">
           {open ? "▲" : "▼"}
         </span>
       </button>
 
       {/* Difficulty */}
-      <p className="text-xs mt-2 text-blue-600 font-medium">
+      <p className="mt-2 text-sm font-medium text-blue-600">
         Level: {question.level}
       </p>
 
-      {/* Expandable Answer */}
+      {/* Answer */}
       {open && (
-        <div className="mt-4 text-gray-700 dark:text-gray-300 text-sm leading-relaxed">
-          <strong>Answer:</strong> {question.answer}
+        <div className="mt-4 text-base leading-relaxed text-gray-700 dark:text-gray-300">
+          <strong className="block mb-2 text-gray-900 dark:text-white">
+            Answer:
+          </strong>
+          {question.answer}
         </div>
       )}
     </div>

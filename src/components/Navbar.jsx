@@ -3,8 +3,9 @@ import { NavLink } from "react-router-dom";
 
 const links = [
   { path: "/", label: "Home" },
-  { path: "/dashboard", label: "Dashboard" },
-  { path: "/topics", label: "Topics" },
+  // TODO:: Implement in future
+  // { path: "/dashboard", label: "Dashboard" },
+  // { path: "/topics", label: "Topics" },
   { path: "/frameworks", label: "Frameworks" },
   { path: "/questions", label: "Question Bank" },
   { path: "/mock", label: "Mock Interview" }
